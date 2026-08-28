@@ -21,8 +21,9 @@ Sentences were selected for the linguistic phenomena they contain, never for
 their authors.
 
 **Takedown.** If you are the author of a comment included here and want it
-removed, open an issue in this repository and the row will be deleted from the
-next release.
+removed, contact <kevinhan923@gmail.com> (or open an issue in this
+repository) and the row will be deleted from the next release. Requests are
+honoured without requiring proof of authorship.
 
 ## Derived artifacts
 
