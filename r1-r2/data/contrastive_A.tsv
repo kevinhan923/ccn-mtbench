@@ -1,0 +1,268 @@
+uid	table	category	src_noisy	src_clean	ref_en	noise_span	noise_gold_en	noise_std	source_meta
+A-HOM-001	A	HOM	广0王，我也是	广陵王，我也是	Prince of Guangling, same here.	广0王	Prince of Guangling	广陵王	CSM
+A-HOM-002	A	HOM	3Q 祝你新年快乐 🎊🐍	谢谢 祝你新年快乐 🎊🐍	Thanks! Happy New Year 🎊🐍	3Q	thanks ‖ thank you	谢谢	CSM
+A-HOM-003	A	HOM	我的玛雅太美了	我的妈呀太美了	Oh my God, mine is so beautiful!	玛雅	oh my God ‖ goodness ‖ wow	妈呀	CSM
+A-HOM-004	A	HOM	有顺风顺水顺财神的郝性头像吗？	有顺风顺水顺财神的郝姓头像吗？	Does anyone have a profile picture with the surname Hao that brings smooth sailing and the God of Wealth?	郝性	the surname Hao	郝姓	CSM
+A-HOM-005	A	HOM	➗25家政 15洗衣  10洗车	出售25家政 15洗衣  10洗车	Selling: housekeeping 25, laundry 15, car wash 10.	➗	for sale ‖ offering paid services	出售	CSM
+A-HOM-006	A	HOM	马牙，谢谢劳斯🥺❤️❤️❤️	妈呀，谢谢老师🥺❤️❤️❤️	Oh my God, thank you, teacher 🥺❤️❤️❤️	马牙 ‖ 劳斯	oh my God ‖ teacher or creator	妈呀 ‖ 老师	CSM
+A-HOM-007	A	HOM	似吧我不拦你	死吧我不拦你	Go die if you want—I won't stop you.	似	die	死	CSM
+A-HOM-008	A	HOM	哈雷哈雷，欢迎欢迎热烈欢迎	你好你好，欢迎欢迎热烈欢迎	Hello, hello—a very warm welcome!	哈雷哈雷	hello hello ‖ hi there	你好你好	CSM
+A-HOM-009	A	HOM	国际大厦比	国际大傻逼	A world-class dumbass.	国际大厦比	world-class dumbass ‖ the biggest fucking idiot	国际大傻逼	CSM
+A-HOM-010	A	HOM	啊啊啊啊给青兰ee吃	啊啊啊啊给青兰阿姨吃	Give Auntie Qinglan something to eat!	ee	auntie ‖ aunty	阿姨	CSM
+A-HOM-011	A	HOM	啊啊啊啊啊豆儿康康我	啊啊啊啊啊豆儿看看我	Dou'er, take a look at me!!!	康康	look at me ‖ take a look	看看	CSM
+A-HOM-012	A	HOM	蟹蟹宝宝夸奖	谢谢宝宝夸奖	Thanks, babe, for the compliment.	蟹蟹	thanks ‖ thank you	谢谢	CSM
+A-HOM-013	A	HOM	啊！谢谢劳斯！	啊！谢谢老师！	Ah, thank you, teacher!	劳斯	teacher ‖ creator ‖ seller	老师	CSM
+A-HOM-014	A	HOM	大鸡毛（大金毛）	大金毛（大金毛）	A big golden retriever (a big golden retriever).	大鸡毛	big golden retriever ‖ golden retriever	大金毛	CSM
+A-HOM-015	A	HOM	每个月不用给chatgpt交20刀了	每个月不用给chatgpt交20美元了	Now I don’t have to pay ChatGPT $20 a month.	刀	dollars	美元	CSM
+A-HOM-017	A	HOM	这就是史	这就是屎	This is literally shit.	史	shit	屎	CSM
+A-NEO-253	A	NEO	知道为什么他父母接受他是0还配合拍视频吗 原因竟是...	知道为什么他父母接受他是受还配合拍视频吗 原因竟是...	Do you know why his parents accept that he’s a bottom and even cooperate in making videos? The reason turns out to be...	0	zero ‖ bottom	受	CSM
+A-HOM-019	A	HOM	固体香薰挂！！有7.8个香味都好特别 不是那种浓郁型的，挂在衣柜里淡淡的香灰常舒心！每次来小韩都要囤一堆！！！！	固体香薰挂！！有7.8个香味都好特别 不是那种浓郁型的，挂在衣柜里淡淡的香非常舒心！每次来小韩都要囤一堆！！！！	Solid fragrance hangers!! There are seven or eight scents, and every one is so unique. They’re not overpowering; hanging one in the wardrobe leaves a soft scent that feels incredibly soothing! I stock up on a bunch every time I visit Xiao Han!!!!	灰常	very ‖ extremely	非常	CSM
+A-PYA-001	A	PYA	小窗口dd你吧	小窗口联系你吧	I'll DM you.	dd	DM ‖ message ‖ contact	联系	CSM
+A-PYA-002	A	PYA	350 q安	350 QQ安卓区	Offering ¥350 on the QQ Android server.	q安	QQ Android server ‖ QQ Android version	QQ安卓区	CSM
+A-PYA-003	A	PYA	我喜欢你 CPDD	我喜欢你 想和你谈恋爱	I like you—want to date?	CPDD	want to date ‖ want to be a couple	想和你谈恋爱	CSM
+A-PYA-004	A	PYA	好可爱cpdd...	好可爱想找对象...	So cute—looking for someone to date...	cpdd	looking for someone to date ‖ want to date	想找对象	CSM
+A-PYA-005	A	PYA	Chuan搭🔴⚪️红白配	穿搭🔴⚪️红白配	Outfit 🔴⚪️ red and white.	Chuan搭	Chuan-da ‖ outfit	穿搭	CSM
+A-PYA-006	A	PYA	xhs是得加个翻译功能了	小红书是得加个翻译功能了	Xiaohongshu really needs to add a translation feature.	xhs	XHS ‖ Xiaohongshu	小红书	CSM
+A-PYA-007	A	PYA	愿逆风如解意，蛇年多挣RMB	愿逆风如解意，蛇年多挣人民币	May even the headwinds understand your wishes, and may you make lots of RMB in the Year of the Snake.	RMB	RMB ‖ yuan	人民币	CSM
+A-PYA-008	A	PYA	说 WOC 和 NB 欢迎来中国旅游和交朋友	说 我操 和 NB 欢迎来中国旅游和交朋友	Just say “holy crap” and “awesome.” Welcome to China—come travel and make friends!	WOC	WOC ‖ holy crap	我操	CSM
+A-PYA-009	A	PYA	还是得看对口白话 对口白话兄弟yyds	还是得看对口白话 对口白话兄弟永远的神	You’ve got to watch Duikou Baihua. The Duikou Baihua guys are the GOAT.	yyds	YYDS ‖ forever the god	永远的神	CSM
+A-PYA-010	A	PYA	一打开小红书发现变成国际版le	一打开小红书发现变成国际版了	I opened Xiaohongshu and found it had turned into an international app.	le	le ‖ particle	了	CSM
+A-PYA-011	A	PYA	💙15w左右女生建议入手的BBA二手车	💙15万左右女生建议入手的BBA二手车	💙 Recommended used BBA cars for women with a budget of around ¥150,000.	15w左右	around 150k	15万左右	CSM
+A-PYA-012	A	PYA	上次还有人说瘦的是P的 搞不懂根本搞不懂	上次还有人说瘦的是修图的 搞不懂根本搞不懂	Last time someone even said the slim look was photoshopped. I don’t get it—seriously, I just don’t.	P的	photoshopped	修图的	CSM
+A-NEO-001	A	NEO	中中中哦[doge]	好好好哦[doge]	Okay, okay, okay [doge].	中中中	okay, okay, okay ‖ all right, all right, all right	好好好	CSM
+A-NEO-002	A	NEO	噗哈哈哈还是你6666	噗哈哈哈还是你最厉害	Pfft, hahaha—you're still the best!	6666	awesome ‖ amazing ‖ impressive	最厉害	CSM
+A-NEO-003	A	NEO	想到他们的“快乐水”	想到他们的“可乐”	Thinking about their so-called “happy water”—Coke.	快乐水	Coke ‖ cola ‖ soda	可乐	CSM
+A-NEO-004	A	NEO	来了中中中	来了好好好	I'm here—okay, okay, okay!	中中中	okay, okay, okay ‖ all right, all right, all right	好好好	CSM
+A-NEO-005	A	NEO	割肉？22年1.1买的，1.7算割肉吗	亏本卖出？22年1.1买的，1.7算亏本卖出吗	Selling at a loss? I bought it for 1.1 in 2022; does selling at 1.7 really count as taking a loss?	割肉	sell at a loss ‖ take a loss ‖ cut one's losses	亏本卖出	CSM
+A-NEO-006	A	NEO	不在鱼上了吗	不在闲鱼上了吗	Aren't you selling it on Xianyu anymore?	鱼	Xianyu	闲鱼	CSM
+A-NEO-007	A	NEO	巴拉巴拉说的啥	说了这么多，到底在说什么	After all that rambling, what are you even talking about?	巴拉巴拉说的啥	what are you rambling about ‖ what are you even talking about	说了这么多，到底在说什么	CSM
+A-NEO-008	A	NEO	这是老广啊	这是广东本地人啊	That's a true Guangdong local.	老广	Guangdong local ‖ native Cantonese	广东本地人	CSM
+A-NEO-009	A	NEO	交?已关[doge]	互相关注?已经关注[doge]	Want to be mutuals? I have already followed you. [doge]	交 ‖ 已关	be mutuals ‖ already followed	互相关注 ‖ 已经关注	CSM
+A-NEO-010	A	NEO	多的不说，给我中中中	多的不说，希望我能中奖	Enough talk—hope I win!	给我中中中	let me win ‖ hope I win	希望我能中奖	CSM
+A-NEO-011	A	NEO	五！老！师！我！想！你！了！	五条悟老师我！想！你！了！	Gojo-sensei! I miss you!	五！老！师！	Gojo-sensei ‖ Mr. Gojo	五条悟老师	CSM
+A-NEO-012	A	NEO	杭州现货，价格美丽	杭州现货，价格很划算	In stock in Hangzhou at a great price.	价格美丽	great price ‖ attractively priced ‖ good value	价格很划算	CSM
+A-NEO-013	A	NEO	318走🐟（24/6生产日期）	318通过闲鱼交易（24/6生产日期）	¥318 via Xianyu (manufactured in June 2024).	走🐟	trade through Xianyu ‖ sell via Xianyu	通过闲鱼交易	CSM
+A-NEO-014	A	NEO	蹲了很久[doge]	等了很久[doge]	I've been waiting a long time [doge].	蹲	wait ‖ keep waiting	等	CSM
+A-NEO-015	A	NEO	蹲蹲哈哈	在这里等候哈哈	Waiting, waiting, haha.	蹲蹲	waiting here ‖ interested and waiting	在这里等候	CSM
+A-NEO-016	A	NEO	3.0下配套的限时常驻自选池子呀	3.0下半期配套的限时常驻自选卡池呀	It’s the limited-time permanent-character selector banner that comes with the second half of Version 3.0.	下 ‖ 池子	second half ‖ selectable banner	下半期 ‖ 卡池	CSM
+A-NEO-017	A	NEO	体育西路，珠江新城可带，3号线都可以带	体育西路，珠江新城可交付，3号线都可以交付	I can meet at Tiyu Xilu, Zhujiang New Town, or anywhere along Guangzhou Metro Line 3.	带	deliver ‖ meet for handoff	交付	CSM
+A-NEO-018	A	NEO	老六，666	出其不意的人，太厉害了	You little schemer—well played!	老六 ‖ 666	sneaky one ‖ well played	出其不意的人 ‖ 太厉害了	CSM
+A-NEO-019	A	NEO	直接多少，🐟跳转不了	直接多少，闲鱼跳转不了	How much for it directly? I can’t open the Xianyu link.	🐟	Xianyu	闲鱼	CSM
+A-NEO-020	A	NEO	这个❤️是🐴扁	这个点赞是骗来的	That like was obtained by tricking people.	❤️ ‖ 🐴扁	like ‖ obtained by deception	点赞 ‖ 骗来的	CSM
+A-NEO-021	A	NEO	重庆，九龙坡蹲	重庆，九龙坡寻找本地卖家	Looking for a local seller in Jiulongpo, Chongqing.	蹲	looking for a local seller ‖ waiting for a local seller	寻找本地卖家	CSM
+A-NEO-022	A	NEO	宝宝黄色毛衣有链接吗	宝贝黄色毛衣有链接吗	Babe, do you have a link to the yellow sweater?	宝宝	babe ‖ bestie ‖ dear	宝贝	CSM
+A-NEO-023	A	NEO	耳朵动起来好可爱啊QQ弹弹	耳朵动起来好可爱啊柔软又有弹性	The way its ears wiggle is so cute—they look soft and bouncy.	QQ弹弹	soft and bouncy ‖ squishy and springy	柔软又有弹性	CSM
+A-NEO-024	A	NEO	许愿温迪伴生金温迪宝宝保佑我	希望抽到温迪和他的专属武器温迪宝宝保佑我	Manifesting Venti and his signature weapon—Venti, please bless my pulls!	许愿温迪伴生金	hope to pull Venti and his signature weapon ‖ manifesting Venti and his signature weapon	希望抽到温迪和他的专属武器	CSM
+A-NEO-025	A	NEO	无盒200出	无盒200出售	No original box; selling for ¥200.	出	sell ‖ for sale	出售	CSM
+A-NEO-026	A	NEO	接出血停止，积血消失，宝宝健康平安出生。	希望出血停止，积血消失，宝宝健康平安出生。	Praying that the bleeding stops, the hematoma disappears, and the baby is born safe and healthy.	接	praying for ‖ hoping for ‖ manifesting	希望	CSM
+A-NEO-027	A	NEO	卡皮巴拉土豆豚12星座插画头像表情包原创	卡皮巴拉12星座插画头像表情包原创	Original capybara zodiac illustrations for profile pictures and stickers.	卡皮巴拉土豆豚	capybara	卡皮巴拉	CSM
+A-NEO-028	A	NEO	台州本地蹲蹲	台州寻找本地卖家	Looking for a local seller in Taizhou.	本地蹲蹲	looking for a local seller ‖ seeking a local seller	寻找本地卖家	CSM
+A-NEO-029	A	NEO	已私，求图，谢谢	已经发私信了，想要图片，谢谢	I've sent you a DM. Could I get the picture? Thanks.	已私 ‖ 求图	sent a DM ‖ asking for the picture	已经发私信了 ‖ 想要图片	CSM
+A-NEO-030	A	NEO	滴我滴我[doge]	私信我私信我[doge]	DM me, DM me. [doge]	滴我滴我	DM me ‖ message me	私信我私信我	CSM
+A-NEO-031	A	NEO	！！！！同担啊！！！！！	！！！！喜欢同一个偶像的人啊！！！！！	We’re fans of the same idol!!!!!	同担	fellow fan ‖ fan of the same idol	喜欢同一个偶像的人	CSM
+A-NEO-032	A	NEO	雀魂 和 for the king+1	雀魂 和 for the king，我也是	Mahjong Soul and For the King—same here!	+1	same here ‖ me too	，我也是	CSM
+A-NEO-033	A	NEO	人不开心，也要咪哄	人不开心，也要让猫咪哄	Even when you're feeling down, let a cat cheer you up.	咪哄	let a cat cheer you up ‖ feline comfort	让猫咪哄	CSM
+A-NEO-034	A	NEO	➕吗宝宝	互相加好友吗宝宝	Babe, want to add each other as friends?	➕	add each other as friends ‖ connect as friends	互相加好友	CSM
+A-NEO-035	A	NEO	蹲蹲，南南新年快乐	在这里等待，南南新年快乐	Waiting here. Happy New Year, Nannan!	蹲蹲	waiting here ‖ staying tuned	在这里等待	CSM
+A-NEO-036	A	NEO	蹲蹲，好可爱啊	在这里等待，好可爱啊	Waiting here—this is so cute!	蹲蹲	waiting here ‖ staying tuned	在这里等待	CSM
+A-NEO-037	A	NEO	我去，这个帅啊	天啊，这个帅啊	Whoa, this is so cool!	我去	whoa ‖ damn ‖ oh wow	天啊	CSM
+A-NEO-038	A	NEO	你是手控吗？	你是特别喜欢好看的手的人吗？	Are you really into attractive hands?	手控	hand enthusiast ‖ someone attracted to hands	特别喜欢好看的手的人	CSM
+A-NEO-039	A	NEO	卷成这样了	竞争已经这么激烈了	Has the competition really gotten this intense?	卷成这样了	competition has gotten this intense ‖ this cutthroat	竞争已经这么激烈了	CSM
+A-NEO-040	A	NEO	宝接昼吗	宝贝接受夏以昼相关的委托吗	Babe, do you take commissions for Caleb from Love and Deepspace?	宝 ‖ 接昼	babe ‖ take Caleb commissions	宝贝 ‖ 接受夏以昼相关的委托	CSM
+A-NEO-041	A	NEO	老师我也想要你	卖家我也想要这个商品	I want one too, please.	老师 ‖ 要你	seller ‖ want one from you	卖家 ‖ 要这个商品	CSM
+A-NEO-042	A	NEO	第二捏~欢迎欢迎	我是第二个~欢迎欢迎	I'm second—welcome, welcome!	第二捏	I'm second ‖ second here	我是第二个	CSM
+A-NEO-043	A	NEO	敦门永恒！	永远支持蒋敦豪！	Team Jiang Dunhao forever!	敦门永恒	Team Jiang Dunhao forever ‖ always support Jiang Dunhao	永远支持蒋敦豪	CSM
+A-NEO-044	A	NEO	瓜哥三分爆头	卡梅隆·安东尼投进了一记关键三分球	Melo drills a three-pointer!	瓜哥三分爆头	Melo drills a three ‖ Carmelo Anthony hits a clutch three	卡梅隆·安东尼投进了一记关键三分球	CSM
+A-NEO-045	A	NEO	蹲蹲第一个羊羔毛外套的链接	等待第一个羊羔毛外套的链接	Waiting for the link to the first shearling jacket.	蹲蹲	waiting for ‖ looking for	等待	CSM
+A-NEO-046	A	NEO	接接接 借你吉言	我接受这份祝福 借你吉言	Claiming it, claiming it, claiming it—thanks for the good wishes.	接接接	accepting this blessing ‖ claiming this blessing	我接受这份祝福	CSM
+A-NEO-047	A	NEO	瑶瑶公主，蹲蹲蹲蹲	瑶瑶公主，一直在寻找	Still waiting for Princess Yaoyao.	蹲蹲蹲蹲	still looking for ‖ waiting for	一直在寻找	CSM
+A-NEO-048	A	NEO	啊呀蹲蹲现代狼尾张邈	啊呀寻找现代狼尾张邈	Ah, waiting for modern wolf-cut Zhang Miao.	蹲蹲	looking for ‖ seeking	寻找	CSM
+A-NEO-049	A	NEO	楼主的意思是“这就是他想来的地方”	发帖人的意思是“这就是他想来的地方”	The OP means, “This is exactly where he wanted to come.”	楼主	OP ‖ original poster	发帖人	CSM
+A-NEO-050	A	NEO	05辽宁的	2005年出生，来自辽宁	Born in 2005, from Liaoning.	05辽宁的	born in 2005, from Liaoning ‖ a Liaoning native born in 2005	2005年出生，来自辽宁	CSM
+A-NEO-051	A	NEO	番禺 我司招聘前台。真实有效。🉑️滴滴	番禺 我司招聘前台。真实有效。可以私信联系	Our company in Panyu, Guangzhou, is hiring a receptionist. This is a genuine vacancy—DM me if interested.	🉑️滴滴	feel free to DM ‖ message me	可以私信联系	CSM
+A-NEO-052	A	NEO	嘤嘤嘤～～快回来	我很难过～～快回来	I'm so sad~~ Please come back soon.	嘤嘤嘤	sob sob ‖ I'm so sad	我很难过	CSM
+A-NEO-053	A	NEO	我我我蹲蹲蹲	我我我在这里等待	Me, me, me—waiting, waiting, waiting.	蹲蹲蹲	waiting here ‖ staying tuned	在这里等待	CSM
+A-NEO-054	A	NEO	第三个我推	第三个我喜欢和支持的角色	The third one is my favorite character.	我推	my favorite character ‖ my fave ‖ my bias	我喜欢和支持的角色	CSM
+A-NEO-055	A	NEO	！蹲蹲！	！在这里等待！	Waiting here!	蹲蹲	waiting here ‖ staying tuned	在这里等待	CSM
+A-NEO-056	A	NEO	②没了哦，其他私	第二件没了哦，其他私信咨询	Item 2 is sold out. DM me about the others.	② ‖ 私	item two ‖ DM to ask	第二件 ‖ 私信咨询	CSM
+A-NEO-057	A	NEO	宝宝羽绒服🔗！	宝宝羽绒服的购买链接！	Babe, please send me the link to this down jacket!	🔗	purchase link ‖ product link	的购买链接	CSM
+A-NEO-058	A	NEO	看预算，直接r1+r52+大三元最优	看预算，直接r1+r52+三支恒定F2.8光圈的变焦镜头最优	It depends on your budget. The best setup is the R1, the R5 Mark II, and the holy trinity of constant-f/2.8 zoom lenses.	大三元	holy trinity of f/2.8 zoom lenses ‖ three constant-f/2.8 zoom lenses	三支恒定F2.8光圈的变焦镜头	CSM
+A-NEO-059	A	NEO	佛山日结禅城张槎30/小时 需要滴滴	佛山日结禅城张槎30/小时 需要私信联系	Same-day-pay job in Zhangcha, Chancheng District, Foshan: ¥30 per hour. DM if interested.	滴滴	DM ‖ contact me	私信联系	CSM
+A-NEO-060	A	NEO	老外来之前不给我推这种视频	老外来之前不给我推荐这种视频	The platform never recommended videos like this before foreign users arrived.	推	recommend ‖ show in my feed	推荐	CSM
+A-NEO-061	A	NEO	目前估7️⃣1️⃣0️⃣💼邮不包手续费	目前估7️⃣1️⃣0️⃣包邮不包手续费	Currently asking ¥710, shipping included; transaction fees are not included.	💼邮	shipping included ‖ free shipping	包邮	CSM
+A-NEO-062	A	NEO	蹲蹲拼320的	寻找一起拼单、共同分担320元费用的人	Looking for someone to join a ¥320 group buy with me.	蹲蹲拼320的	looking for someone to join a ¥320 group buy ‖ seeking a group-buy partner for ¥320	寻找一起拼单、共同分担320元费用的人	CSM
+A-NEO-063	A	NEO	ruby蹲蹲	等待Ruby	Waiting for Ruby.	ruby蹲蹲	waiting for Ruby	等待Ruby	CSM
+A-NEO-064	A	NEO	新年衣有富贵香！🔍当妮留香珠	新年衣服有富贵香！搜索当妮留香珠	Give your New Year outfit a luxurious scent—search for Downy scent booster beads.	衣 ‖ 🔍	outfit ‖ search for	衣服 ‖ 搜索	CSM
+A-NEO-065	A	NEO	19配 35/1	19号可配 35元一份	No. 19 is available; ¥35 each.	19配 ‖ 35/1	number 19 is available ‖ ¥35 each	19号可配 ‖ 35元一份	CSM
+A-NEO-066	A	NEO	狼青土松弟弟	狼青土松公幼犬	A male Chinese Wolfdog–local Songshi mix.	弟弟	male puppy ‖ young male dog	公幼犬	CSM
+A-NEO-067	A	NEO	包姜晓的呀[doge]	肯定是姜晓的呀[doge]	Of course it's for Jiang Xiao. [doge]	包	definitely ‖ of course	肯定是	CSM
+A-NEO-068	A	NEO	借楼蹲！！！	借用评论区寻找！！！	Borrowing the comments—looking for this!!!	借楼 ‖ 蹲	borrowing the comments ‖ looking for this	借用评论区 ‖ 寻找	CSM
+A-NEO-069	A	NEO	我！要！原！图！关啦	我！要！原！图！已经关注你了	I! Want! The! Original! Image! I've followed you.	关啦	I've followed you ‖ already followed	已经关注你了	CSM
+A-NEO-070	A	NEO	蹲一下🐍	在这里等待一下🐍	Waiting here for a bit 🐍	蹲一下	waiting here for a bit ‖ staying tuned	在这里等待一下	CSM
+A-NEO-071	A	NEO	蹲反馈。甜不甜	等待反馈。甜不甜	Waiting for feedback. Is it sweet?	蹲	waiting for ‖ looking out for	等待	CSM
+A-NEO-072	A	NEO	什么刀子都有[doge]	什么让人难过的情节都有[doge]	It has every kind of heartbreaking twist [doge].	刀子	heartbreaking twist ‖ angst ‖ tragedy	让人难过的情节	CSM
+A-NEO-073	A	NEO	笑爆了	太好笑了	That's hilarious.	笑爆了	hilarious ‖ cracked me up ‖ laughed so hard	太好笑了	CSM
+A-NEO-074	A	NEO	冷知识： #小孩也可以学水袖 所以中国文化永不可少。	小知识： #小孩也可以学水袖 所以中国文化永不可少。	Fun fact: #KidsCanLearnWaterSleevesToo. That’s why Chinese culture will always be essential.	冷知识	fun fact ‖ trivia	小知识	CSM
+A-NEO-076	A	NEO	他们甚至是3D男友	他们甚至是现实中的男友	They’re even 3D boyfriends.	3D男友	3D boyfriend	现实中的男友	CSM
+A-NEO-078	A	NEO	一次牛油果没吃过的有没有，吃过的朋友告诉我是什么味道，我脑补一下	一次牛油果没吃过的有没有，吃过的朋友告诉我是什么味道，我想象一下	Anyone else never tried avocado? Friends who have, tell me what it tastes like so I can imagine it.	脑补	imagine ‖ visualize	想象	CSM
+A-NEO-079	A	NEO	无语！太夸张了！刚从中国回来三周，我觉得他们描述的是欧盟	不知道说什么！太夸张了！刚从中国回来三周，我觉得他们描述的是欧盟	Speechless! This is way too exaggerated! I got back from China three weeks ago, and I feel like they’re describing the EU.	无语	speechless ‖ at a loss for words	不知道说什么	CSM
+A-NEO-080	A	NEO	那太有趣了！这个应用上的梗图太棒了	那太有趣了！这个应用上的搞笑图片太棒了	That’s hilarious! The memes on this app are amazing.	梗图	meme ‖ funny image	搞笑图片	CSM
+A-NEO-081	A	NEO	看过 #《猎罪图鉴》 过来罚站→	看过 #《猎罪图鉴》 过来反思→	If you’ve watched Under the Skin, come stand in the corner and reflect →	罚站	stand and reflect ‖ be punished	反思	CSM
+A-NEO-082	A	NEO	天天收藏，从未开始	每天都在收藏，却从来没有开始行动	Save everything, start nothing.	天天收藏，从未开始	save everything, start nothing	每天都在收藏，却从来没有开始行动	CSM
+A-NEO-085	A	NEO	这台词……放到某些作品里也不会有违和感吧	这台词……放到某些作品里也不会有不协调感吧	These lines... wouldn’t feel out of place in certain works, would they?	违和感	sense of discomfort ‖ feeling off	不协调感	CSM
+A-NEO-086	A	NEO	我可以用左脚踩右脚，再用右脚踩左脚，一直踩到天空！	我可以通过左右脚交替踩踏升到天空！	I can step on my right foot with my left, then on my left with my right, and keep doing it until I reach the sky!	用左脚踩右脚，再用右脚踩左脚，一直踩到天空	step on your own foot to fly	通过左右脚交替踩踏升到天空	CSM
+A-NEO-089	A	NEO	不可能！在这里，女孩出生后就是家庭的中心，她们是家里的女王。喝点鸡汤吧！	不可能！在这里，女孩出生后就是家庭的中心，她们是家里的女王。听点励志的话吧！	Impossible! Here, girls become the center of the family the moment they’re born—they’re the queens of the household. Have some inspirational chicken soup!	喝点鸡汤	have some chicken soup ‖ listen to something uplifting	听点励志的话	CSM
+A-NEO-090	A	NEO	永远抄底	永远在价格低位买入	Always buy the dip.	抄底	buy the dip	在价格低位买入	CSM
+A-NEO-092	A	NEO	这本书在中国也是爆火，我也读完了。[ #飞吻R ]	这本书在中国也是非常火，我也读完了。[ #飞吻R ]	This book was a huge hit in China too. I’ve finished it as well. [#BlowingAKissR]	爆火	super popular ‖ viral	非常火	CSM
+A-NEO-095	A	NEO	细思极恐 咋给一种放大版园区感	仔细想想非常可怕 咋给一种放大版园区感	The more I think about it, the scarier it gets. Why does it feel like a supersized scam compound?	细思极恐	terrifying on second thought	仔细想想非常可怕	CSM
+A-NEO-096	A	NEO	看 the substance 的时候我就在暗自想这个演员要是什么时候能演个女同就好了 没想到已经演过了 我马上去看	看 the substance 的时候我就在暗自想这个演员要是什么时候能演个女同性恋就好了 没想到已经演过了 我马上去看	While watching The Substance, I secretly thought, “I wish this actress would play a lesbian someday.” Turns out she already has—I’m going to watch it right now.	女同	lesbian	女同性恋	CSM
+A-NEO-097	A	NEO	看完 杀面包 来看看我拍的邓紫棋巴黎演唱会吧沉浸式体验哦耶✌️！我会持续更新🇩🇪留学生活欧洲旅游vlog！入股不亏	看完 杀面包 来看看我拍的邓紫棋巴黎演唱会吧沉浸式体验哦耶✌️！我会持续更新🇩🇪留学生活欧洲旅游vlog！关注不会后悔	Now that you’ve finished Bread Slaughter, come watch the immersive video I shot at G.E.M.’s Paris concert—yeah ✌️! I’ll keep posting vlogs about studying in Germany and traveling around Europe. Follow now; you won’t regret it.	入股不亏	worth the investment	关注不会后悔	CSM
+A-NEO-099	A	NEO	哈哈哈哈那个 阿拉斯加的眼神 笑死我了	哈哈哈哈那个 阿拉斯加的眼神 让我笑得不行	Hahaha, that look on the Alaskan malamute’s face—I’m dying.	笑死我了	dying of laughter ‖ LOL	让我笑得不行	CSM
+A-NEO-100	A	NEO	我们信奉相同的教义；这里有个花哨的名字：万物有灵论者。我喜欢它😍 漂亮。新年快乐。牛逼！保重	我们信奉相同的教义；这里有个花哨的名字：万物有灵论者。我喜欢它😍 漂亮。新年快乐。厉害！保重	We believe in the same doctrine; there’s a fancy name for it here: animism. I love it 😍 Beautiful. Happy New Year. Freaking awesome! Take care.	牛逼	awesome ‖ amazing	厉害	CSM
+A-NEO-103	A	NEO	网友的成功让人宫寒	网友的成功让人嫉妒得难受	Other people’s success makes my uterus go cold with envy.	宫寒	cold uterus	嫉妒得难受	CSM
+A-NEO-104	A	NEO	导航有的时候真的太坑了，没开过真的会很害怕	导航有的时候真的太不靠谱了，没开过真的会很害怕	Navigation apps can be such a nightmare sometimes. If you’ve never driven that route before, it can be genuinely scary.	太坑了	so unfair ‖ what a ripoff	太不靠谱了	CSM
+A-NEO-107	A	NEO	原版在主页这条视频的上一条，淡淡人机感也是被姚润昊拿捏了	原版在主页这条视频的上一条，淡淡机械感也是被姚润昊拿捏了	The original is the previous video on my profile. Yao Runhao has absolutely nailed that subtly robotic vibe.	人机感	robotic feel	机械感	CSM
+A-NEO-108	A	NEO	又要威又要带头盔就是这种	又想耍威风又要戴头盔就是这种	This is what it looks like when you want to look cool but still wear a helmet.	又要威又要带头盔	want to look cool but also be safe	又想耍威风又要戴头盔	CSM
+A-NEO-109	A	NEO	总发愁自己没客子，不知道怎么起号的可以戳戳我	总发愁自己没客子，不知道怎么运营新账号的可以戳戳我	Always worried you have no customers and don’t know how to get your account started? Tap me.	起号	start an account	运营新账号	CSM
+A-NEO-110	A	NEO	灭火器拿来出来就这样放在地上然后看着那个火继续烧，什么神操作？	灭火器拿来出来就这样放在地上然后看着那个火继续烧，什么令人费解的操作？	They brought out the fire extinguisher, set it on the ground, and just watched the fire keep burning. What kind of genius move is that?	神操作	godlike move ‖ amazing operation	令人费解的操作	CSM
+A-NEO-113	A	NEO	需要我#互关吗，兄弟	需要我#互相关注吗，兄弟	Need me to follow you back, bro?	互关	follow each other	互相关注	CSM
+A-NEO-114	A	NEO	魔都惊艳的主厨餐桌，一生值得来一次！	上海惊艳的主厨餐桌，一生值得来一次！	A stunning chef’s table experience in Shanghai—the kind you should try once in your life!	魔都	Magic City ‖ Shanghai	上海	CSM
+A-NEO-115	A	NEO	🖤暗黑系甜酷风系列美甲，一出手就哇塞住！	🖤暗黑系甜美又酷的风格系列美甲，一出手就哇塞住！	🖤 Dark, sweet-and-edgy nail set—the instant wow factor is unreal!	甜酷风	sweet-cool style	甜美又酷的风格	CSM
+A-NEO-116	A	NEO	橄榄皮灰粉天菜眼影！！	最适合橄榄皮的灰粉眼影！！	The ultimate gray-pink eyeshadow for olive skin!!	橄榄皮灰粉天菜眼影	dream girl ‖ dream boy	最适合橄榄皮的灰粉眼影	CSM
+A-NEO-119	A	NEO	🔥这个神器有点东西啊❗️	🔥这个工具确实很好用啊❗️	🔥 This little wonder gadget is seriously impressive ❗️	这个神器有点东西	this gadget is seriously useful ‖ this thing is legit	这个工具确实很好用	CSM
+A-NEO-121	A	NEO	台北人均1000+ 101夜景配龍蝦｜氛圍感西餐	台北人均1000+ 101夜景配龍蝦｜有情调的西餐	Taipei: NT$1,000+ per person | Taipei 101 night views with lobster | Western dining with immaculate vibes.	氛圍感	atmosphere ‖ vibe	有情调的	CSM
+A-NEO-122	A	NEO	杨幂同款新年拜年服穿搭~真的显白18岁	与杨幂相同款式的新年拜年服穿搭~真的显白18岁	Yang Mi’s New Year greeting outfit look~ It really brightens your complexion and makes you look 18.	杨幂同款	same style ‖同款	与杨幂相同款式的	CSM
+A-NEO-123	A	NEO	沉浸式做4寸 周岁小蛋糕	全程展示制作4寸 周岁小蛋糕	Immersive baking: a 4-inch first-birthday cake.	沉浸式做	immersive	全程展示制作	CSM
+A-NEO-126	A	NEO	大连最适合浪费生命的地方……	大连最适合悠闲度日的地方……	The best place in Dalian to blissfully waste your life...	最适合浪费生命的地方	best place to waste life	最适合悠闲度日的地方	CSM
+A-NEO-127	A	NEO	巴塞罗那🇪🇸打折村出行指南	巴塞罗那🇪🇸奥特莱斯购物村出行指南	Barcelona 🇪🇸 outlet village travel guide.	打折村	outlet village	奥特莱斯购物村	CSM
+A-NEO-128	A	NEO	幸福到冒泡🫧	非常幸福🫧	So happy I’m practically bubbling 🫧	幸福到冒泡	so happy I'm bubbling	非常幸福	CSM
+A-NEO-130	A	NEO	血脉觉醒！高颜值高能量水晶手串分享*8📿	本能被唤醒！高颜值高能量水晶手串分享*8📿	Bloodline awakened! Sharing eight gorgeous, high-energy crystal bracelets 📿	血脉觉醒	bloodline awakening	本能被唤醒	CSM
+A-NEO-132	A	NEO	零基础乍到书法新手村 我什么时候可以大成	零基础刚开始学习书法 我什么时候可以大成	A complete beginner has entered calligraphy’s newbie village. When will I finally master it?	乍到书法新手村	starting out in calligraphy ‖ entering the beginner stage	刚开始学习书法	CSM
+A-NEO-133	A	NEO	今日份晒澳白珍珠戒指	今天展示澳白珍珠戒指	Today’s post: showing off my Australian South Sea white pearl ring.	今日份晒	today's share	今天展示	CSM
+A-NEO-135	A	NEO	RC绝美粉紫色缎面高跟鞋五折拿下	RC绝美粉紫色缎面高跟鞋五折买到	Scored these gorgeous pink-and-purple satin RC heels at 50% off.	拿下	get it ‖ secure	买到	CSM
+A-NEO-136	A	NEO	金色猫眼➕黑色|简约显白跳色脚美甲	金色猫眼➕黑色|简约衬托肤色白皙的跳色脚美甲	Gold cat-eye + black | Simple, complexion-brightening color-block pedicure.	显白	whitening ‖ brightening	衬托肤色白皙的	CSM
+A-NEO-138	A	NEO	成都的冬天真的是致郁	成都的冬天真的是让人抑郁	Winter in Chengdu is honestly depressing.	致郁	depressing	让人抑郁	CSM
+A-NEO-139	A	NEO	轻奢老钱｜贵在气质	低调奢华的富贵风格｜贵在气质	Quiet luxury, old-money style | It’s all about the aura.	轻奢老钱	light luxury old money	低调奢华的富贵风格	CSM
+A-NEO-140	A	NEO	这种健身又健脑的地方真的是牛马周末顶配	这种健身又健脑的地方真的是打工人周末顶配	A place that works both your body and brain—truly the ultimate weekend setup for corporate drones.	牛马	corporate drone ‖ working stiff	打工人	CSM
+A-NEO-141	A	NEO	P人勇闯韩国首尔！3天2晚保姆级攻略	P人勇闯韩国首尔！3天2晚极其详细的攻略	A spontaneous P-type takes on Seoul! A comprehensive 3-day, 2-night guide.	保姆级	nanny-level ‖ comprehensive	极其详细的	CSM
+A-NEO-142	A	NEO	2025年🌟属于春节的氛围感美甲💅	2025年🌟具有春节氛围的美甲💅	2025 🌟 Lunar New Year nails with all the festive vibes 💅	属于春节的氛围感美甲	Lunar New Year vibe nails	具有春节氛围的美甲	CSM
+A-NEO-143	A	NEO	我发现跳舞可以旺自己！！！	我发现跳舞可以给自己带来好运！！！	I discovered that dancing can boost my luck!!!	旺自己	boost your luck	给自己带来好运	CSM
+A-NEO-144	A	NEO	上海洛杉矶Long haul flight 带娃探险记	上海洛杉矶Long haul flight 带孩子探险记	Shanghai to Los Angeles long-haul flight: an adventure with the kids.	带娃	bring kids	带孩子	CSM
+A-NEO-145	A	NEO	这个建构我是真整不了一点	这个建构我是真做不了	I seriously cannot handle this structure at all.	整不了一点	can't handle it at all	做不了	CSM
+A-NEO-146	A	NEO	吹爆这四款美食收纳游戏🥳真的太好玩了🤤	极力推荐这四款美食收纳游戏🥳真的太好玩了🤤	I can’t praise these four food-organizing games enough 🥳 They’re seriously so much fun 🤤	吹爆	highly recommend ‖ rave about	极力推荐	CSM
+A-NEO-147	A	NEO	做出了人生鸡小胸｜真的太嫩了🥹减脂绝佳	做出了最成功的鸡小胸｜真的太嫩了🥹减脂绝佳	Made the chicken tenderloin of my dreams | So unbelievably tender 🥹 Perfect for cutting fat.	人生鸡小胸	life's chicken tender	最成功的鸡小胸	CSM
+A-NEO-148	A	NEO	老夫子周边🥹	老夫子衍生商品🥹	Old Master Q merch 🥹	周边	merchandise ‖ peripherals	衍生商品	CSM
+A-NEO-149	A	NEO	曼谷外卖别把我好吃晕了…	曼谷外卖别把我馋得受不了了…	Bangkok delivery, please stop being so delicious I could faint...	好吃晕了	so delicious I'm dizzy	馋得受不了了	CSM
+A-NEO-150	A	NEO	可糖芭比系列｜网感还是得看大直径	可糖芭比系列｜网络时尚感还是得看大直径	Ketan Barbie series | For that online-girl look, large-diameter lenses still win.	网感	internet sense	网络时尚感	CSM
+A-NEO-151	A	NEO	美白亮肤的神！一篇教你谷雨光感套装怎么搭	美白亮肤的最佳产品！一篇教你谷雨光感套装怎么搭	The holy grail for brightening skin! One post teaches you how to pair Guyu’s Glow set.	神	god ‖ amazing	最佳产品	CSM
+A-NEO-152	A	NEO	大阪对戒丝滑购入	大阪对戒顺利购入	Bought our matching rings in Osaka with zero hassle.	丝滑	smooth	顺利	CSM
+A-NEO-153	A	NEO	以前画的黑暗欺骗同人图	以前画的黑暗欺骗二次创作图	Some old Dark Deception fan art I drew.	同人图	fan art	二次创作图	CSM
+A-NEO-154	A	NEO	春节倒计时🧨浅浅期待一下今年的年夜饭吧🧧	春节倒计时🧨稍微期待一下今年的年夜饭吧🧧	Countdown to Lunar New Year 🧨 Just casually looking forward to this year’s reunion dinner 🧧	浅浅期待一下	look forward to it a bit	稍微期待一下	CSM
+A-NEO-155	A	NEO	香港铜锣湾西太后探店🪐｜多图预警	香港铜锣湾薇薇安·威斯特伍德探店🪐｜多图预警	Store visit: Vivienne Westwood in Causeway Bay, Hong Kong 🪐 | Lots of photos ahead.	西太后	Empress Dowager ‖ Vivienne Westwood	薇薇安·威斯特伍德	CSM
+A-NEO-156	A	NEO	张艺兴太旺了 福星啊	张艺兴太能带来好运了 福星啊	Zhang Yixing brings such good luck—he’s a lucky star.	太旺了	so prosperous	太能带来好运了	CSM
+A-NEO-157	A	NEO	妈耶🆘神仙阵容‼️孙艺珍❌池昌旭新剧爱了🔥	天啊🆘神仙阵容‼️孙艺珍❌池昌旭新剧爱了🔥	Oh my God 🆘 What a divine cast‼️ Son Ye-jin × Ji Chang-wook—I’m already obsessed with this new drama 🔥	妈耶	oh my god	天啊	CSM
+A-NEO-160	A	NEO	70kg脂包肌进入赛季	70kg肌肉外覆盖脂肪的体型进入赛季	70 kg, muscles under fat—entering competition season.	脂包肌	muscle under fat	肌肉外覆盖脂肪的体型	CSM
+A-NEO-161	A	NEO	MBTI各种眼神杀！你能接得住？	MBTI各种迷人眼神！你能接得住？	MBTI types and their killer gazes! Can you handle them?	眼神杀	death stare	迷人眼神	CSM
+A-NEO-162	A	NEO	我的病娇猫，爱得太沉重。	我的带有病态占有欲的猫，爱得太沉重。	My yandere cat—its love is way too intense.	病娇	yandere	带有病态占有欲的	CSM
+A-NEO-163	A	NEO	鼓励你逆光上岸的励志文案	鼓励你克服困难获得成功的励志文案	Motivational captions to help you fight against the odds and make it.	逆光上岸	pass the exam ‖ make it	克服困难获得成功	CSM
+A-NEO-164	A	NEO	缅北为什么没有拐卖新加坡和日本人？	缅甸北部为什么没有拐卖新加坡和日本人？	Why don’t human traffickers in northern Myanmar target Singaporeans and Japanese people?	缅北	northern Myanmar	缅甸北部	CSM
+A-NEO-165	A	NEO	笑哭酒友！68条冷笑话版脑筋急转弯	让酒友笑到流泪！68条冷笑话版脑筋急转弯	Drinking buddies in tears from laughing! 68 brain teasers in terrible-joke form.	笑哭酒友	laughing-crying	让酒友笑到流泪	CSM
+A-NEO-166	A	NEO	晒出你在tiktok🇺🇸看到最好笑的抽象帖！🤣	展示你在tiktok🇺🇸看到最好笑的抽象帖！🤣	Show us the funniest absurd post you’ve seen on U.S. TikTok! 🤣	晒出	show off	展示	CSM
+A-NEO-167	A	NEO	减肥四个月真的换了一个人！逆袭	减肥四个月真的换了一个人！实现逆转	Four months of weight loss turned me into a completely different person—the ultimate glow-up.	逆袭	comeback ‖ turnaround	实现逆转	CSM
+A-NEO-168	A	NEO	老外已经在学习中国话这个事情上 卷起来了	老外已经在学习中国话这个事情上 开始过度竞争	Foreigners are already getting fiercely competitive about learning Chinese.	卷起来了	getting competitive	开始过度竞争	CSM
+A-NEO-169	A	NEO	🇯🇵 京都美食攻略 不踩雷 😋！	🇯🇵 京都美食攻略 不会遇到糟糕体验 😋！	🇯🇵 Kyoto food guide: delicious picks with no nasty surprises 😋!	不踩雷	no pitfalls ‖ safe choice	不会遇到糟糕体验	CSM
+A-NEO-170	A	NEO	混血千金感必备灰色美瞳	营造混血富家小姐风格必备的灰色美瞳	Gray contacts are essential for that mixed-race heiress vibe.	混血千金感必备	essential for a mixed-race heiress vibe	营造混血富家小姐风格必备的	CSM
+A-NEO-171	A	NEO	‼️日本大阪USJ环球影城大攻略	‼️日本大阪USJ环球影城详细指南	‼️ The ultimate guide to Universal Studios Japan in Osaka.	大攻略	big guide	详细指南	CSM
+A-NEO-173	A	NEO	桂林📍景点避坑｜去桂林前一定要看哦‼	桂林📍景点注意事项｜去桂林前一定要看哦‼	Guilin 📍 Avoid tourist traps—read this before you go‼	景点避坑	avoid pitfalls	景点注意事项	CSM
+A-NEO-176	A	NEO	哭死❗️后悔没早点看到这篇马来西亚攻略🙏	非常难过❗️后悔没早点看到这篇马来西亚攻略🙏	I could cry❗️ I regret not finding this Malaysia guide sooner 🙏	哭死	crying ‖ so sad	非常难过	CSM
+A-NEO-177	A	NEO	国内有没有商家能做这个饼干的平替啊！！！！	国内有没有商家能做这个饼干的平价替代品啊！！！！	Is there any seller in China who can make an affordable dupe of these cookies?!!!!	平替	affordable alternative	平价替代品	CSM
+A-NEO-178	A	NEO	分享一个桃花的玄学真相	分享一个桃花运中缺乏科学依据的说法	Sharing a mystical truth about romantic luck.	桃花的玄学真相	metaphysics ‖ mysticism	桃花运中缺乏科学依据的说法	CSM
+A-NEO-180	A	NEO	搬运翻译玄鸡的趣图	转载翻译玄鸡的趣图	Reposting and translating funny Xuanji pictures.	搬运	repost ‖ translate	转载	CSM
+A-NEO-181	A	NEO	Costco 是懂华人节日需求的	Costco 很了解华人节日需求	Costco really understands what Chinese shoppers need for the holidays.	是懂华人节日需求的	knows what's up	很了解华人节日需求	CSM
+A-NEO-182	A	NEO	闲钱放哪收益高，搞钱女孩稳利宝攻略	闲钱放哪收益高，努力赚钱的女孩稳利宝攻略	Where should you put spare cash for better returns? A Wenlibao guide for girls focused on making money.	搞钱女孩	money-making girl	努力赚钱的女孩	CSM
+A-NEO-183	A	NEO	🇲🇾产品也可以火到中国！🔥	🇲🇾产品也可以在中国走红！🔥	🇲🇾 Malaysian products can become popular in China too! 🔥	火到中国	become popular in China	在中国走红	CSM
+A-NEO-184	A	NEO	一次外向换来终生自闭只需一首猫步轻boom	一次外向换来终生不敢再与人交往只需一首猫步轻boom	All it takes is one burst of extroversion—and one play of “Catwalk Qing Boom”—to make you socially withdrawn for life.	自闭	withdrawn ‖ introverted	不敢再与人交往	CSM
+A-NEO-186	A	NEO	干货🔥一次带你搞懂修容和古铜	实用内容🔥一次带你搞懂修容和古铜	Useful guide 🔥 Understand contour and bronzer in one go.	干货	useful content ‖ practical info	实用内容	CSM
+A-NEO-187	A	NEO	敢不敢，晒一晒你的人中比例	敢不敢，展示一下你的人中比例	Dare to show off your philtrum proportions?	晒一晒	show off	展示一下	CSM
+A-NEO-188	A	NEO	独居一人食🍓抹茶草莓牛乳和草莓三明治！	独居者的一人餐🍓抹茶草莓牛乳和草莓三明治！	Solo-living meal for one 🍓 Matcha strawberry milk and a strawberry sandwich!	独居一人食	meal for one	独居者的一人餐	CSM
+A-NEO-189	A	NEO	哥哥上线后，一登陆两眼一黑……	哥哥上线后，一登陆眼前一黑……	When big bro came online and logged in, everything went black before his eyes...	两眼一黑	blacked out	眼前一黑	CSM
+A-NEO-190	A	NEO	过年走亲戚安排这个眼妆 新手小白一学就会	过年走亲戚安排这个眼妆 初学者一学就会	Try this eye makeup when visiting relatives for Lunar New Year—beginner-friendly and easy to learn.	新手小白	newbie ‖ beginner	初学者	CSM
+A-NEO-191	A	NEO	泉州探店｜好評多多的韓國料理店	泉州到店体验｜好評多多的韓國料理店	Quanzhou restaurant review | A highly rated Korean restaurant.	探店	shop review	到店体验	CSM
+A-NEO-192	A	NEO	深圳｜夏日解压好去处☀，6大室内运动馆推荐	深圳｜夏日缓解压力的好去处☀，6大室内运动馆推荐	Shenzhen | Six indoor sports venues that are perfect for unwinding this summer ☀	解压好去处	a good place to unwind	缓解压力的好去处	CSM
+A-NEO-193	A	NEO	全国首家｜Kangaroo🦘落地杭州！！！	全国首家｜Kangaroo🦘在杭州开设门店！！！	A national first | Kangaroo 🦘 has opened in Hangzhou!!!	落地杭州	landed ‖ opened	在杭州开设门店	CSM
+A-NEO-194	A	NEO	吉隆坡新晋网红餐厅•不得不试	吉隆坡新晋网络热门餐厅•不得不试	Kuala Lumpur’s newest viral restaurant—a must-try.	网红餐厅	influencer restaurant	网络热门餐厅	CSM
+A-NEO-196	A	NEO	🇬🇧伦敦好吃的漂亮饭	🇬🇧伦敦好吃的精美餐点	🇬🇧 Delicious, pretty food in London.	漂亮饭	pretty meal	精美餐点	CSM
+A-NEO-198	A	NEO	逆天漫画腿，建模比例Anok Yai	惊人的漫画腿，建模比例Anok Yai	Insanely long comic-book legs and model-perfect proportions—Anok Yai.	逆天	outrageous ‖ incredible	惊人的	CSM
+A-NEO-199	A	NEO	吉隆坡超级无敌避雷的点！	吉隆坡非常需要避开的地方！	A place in Kuala Lumpur you absolutely, positively need to avoid!	超级无敌避雷的点	super invincible	非常需要避开的地方	CSM
+A-NEO-201	A	NEO	？ 谁允许你在海洋馆最经典景观只放一半水的	？ 你为什么只给海洋馆最经典的景观放一半水	Who allowed you to fill only half the water in the aquarium’s most iconic exhibit?	谁允许你在海洋馆最经典景观只放一半水的	who allowed you to...	你为什么只给海洋馆最经典的景观放一半水	CSM
+A-NEO-203	A	NEO	谁说上海跨年没有仪式感，我给你拉爆	谁说上海跨年没有过节氛围，我给你拉爆	Who says New Year’s Eve in Shanghai has no sense of occasion? I’ll give you the full experience.	仪式感	sense of ritual	过节氛围	CSM
+A-NEO-204	A	NEO	对喜欢的人消息轰炸，其他已读不回	对喜欢的人连续发送大量消息，其他已读不回	I bombard the person I like with messages and leave everyone else on read.	消息轰炸	message bombing	连续发送大量消息	CSM
+A-NEO-205	A	NEO	梦女&追星女发的文案	幻想与角色恋爱的女性粉丝&追星女发的文案	Captions for self-insert fangirls and idol fans.	梦女	dream girl	幻想与角色恋爱的女性粉丝	CSM
+A-NEO-206	A	NEO	闭眼剪都好看的男生夏天短发	随便剪都好看的男生夏天短发	Men’s summer short haircuts that look good no matter what you pick.	闭眼剪	blind cut ‖ any cut looks good	随便剪	CSM
+A-NEO-207	A	NEO	🇺🇸留子自制巴斯克大成功！	🇺🇸留学生自制巴斯克大成功！	🇺🇸 International student makes a Basque cheesecake—huge success!	留子	overseas student	留学生	CSM
+A-NEO-209	A	NEO	在福州！找到了千与千寻同款汤屋！！	在福州！找到了与《千与千寻》中一样的汤屋！！	In Fuzhou! I found a bathhouse just like the one in Spirited Away!!	千与千寻同款	same style ‖同款	与《千与千寻》中一样的	CSM
+A-NEO-210	A	NEO	2024🇹🇭曼谷米其林摘星🌟之旅全攻略	2024🇹🇭曼谷米其林摘星🌟之旅完整指南	The complete guide to a 2024 Michelin-star tour of Bangkok 🇹🇭 🌟	全攻略	complete guide	完整指南	CSM
+A-NEO-212	A	NEO	官方番外绘本会有哪吒一家、敖丙一家、申公豹一家的更多故事哦！各式各样的可爱周边任大家挑选～	官方衍生绘本会有哪吒一家、敖丙一家、申公豹一家的更多故事哦！各式各样的可爱周边任大家挑选～	The official bonus picture book will have more stories about Ne Zha’s family, Ao Bing’s family, and Shen Gongbao’s family! There’s also all kinds of adorable merch to choose from~	番外绘本	bonus picture book	衍生绘本	CSM
+A-NEO-220	A	NEO	#我的开箱日常[话题]# #长期主义[话题]# ＃电子榨菜 ＃购物分享 ＃超会穿企划 #秋日穿搭指南[话题]#	#我的开箱日常[话题]# #长期主义[话题]# ＃电子下饭内容 ＃购物分享 ＃超会穿企划 #秋日穿搭指南[话题]#	#MyUnboxingRoutine #LongTermism #BackgroundContent #ShoppingHaul #GreatStyleProject #FallOutfitGuide	电子榨菜	digital pickled vegetables ‖ content to eat with	电子下饭内容	CSM
+A-NEO-223	A	NEO	哈哈哈哈哈哈哈哈 #机器人转手绢 好抽象	哈哈哈哈哈哈哈哈 #机器人转手绢 很荒诞	Hahahahahaha #RobotSpinningAHandkerchief is so absurd.	好抽象	so abstract	很荒诞	CSM
+A-NEO-225	A	NEO	小姨～我们又见面啦 开机大吉～心情美丽小姨这次我们江湖见	小姨～我们又见面啦 开机大吉～心情美丽小姨这次我们日后再见	Auntie~ we meet again! Wishing you a smooth start to filming~ I’m in a great mood. Auntie, this time I’ll see you out in the world.	江湖见	see you in the jianghu	日后再见	CSM
+A-NEO-233	A	NEO	吃瓜吃到自己身上……	围观的八卦竟然与自己有关……	The drama I was watching turned out to be about me...	吃瓜吃到自己身上	eat melon ‖ watch the drama	围观的八卦竟然与自己有关	CSM
+A-NEO-234	A	NEO	弹错了一丢丢，但先这样吧… #电吉他[话题]# #shoegaze[话题]#	弹错了一点点，但先这样吧… #电吉他[话题]# #shoegaze[话题]#	I played a tiny bit wrong, but let’s leave it like this for now... #ElectricGuitar #Shoegaze	一丢丢	a little bit	一点点	CSM
+A-NEO-236	A	NEO	全是大漏勺	全是藏不住秘密的人	None of them can keep a secret.	大漏勺	big colander	藏不住秘密的人	CSM
+A-NEO-237	A	NEO	哪吒的童子尿包浓郁的呀	哪吒的童子尿肯定很浓郁呀	Ne Zha’s virgin-boy pee is guaranteed to be potent.	包浓郁的呀	very rich aroma	肯定很浓郁呀	CSM
+A-NEO-238	A	NEO	发尾乱乱的有点二次元感	发尾乱乱的有点动漫风格	The messy ends give it a bit of an anime look.	二次元感	2D feel	动漫风格	CSM
+A-NEO-240	A	NEO	怎么伦敦地铁也开始上演“春运现场”了，乌泱泱一大片人群！	怎么伦敦地铁也开始上演春运般拥挤的场面了，乌泱泱一大片人群！	Why does the London Underground look like the Spring Festival travel rush now? It’s a sea of people!	“春运现场”	“春运现场”	春运般拥挤的场面	CSM
+A-NEO-241	A	NEO	姐妹们帮我看看这是本人还是网图	姐妹们帮我看看这是本人还是网络图片	Girls, help me figure out whether this is really them or just a picture from the internet.	网图	internet image	网络图片	CSM
+A-NEO-242	A	NEO	紧接着帝国拒信接下来就是剑桥的拒信，trinity hall不直录我，扔我进池子里是吧，好好好，不录取我是你的损失	紧接着帝国拒信接下来就是剑桥的拒信，trinity hall不直接录取我，扔我进池子里是吧，好好好，不录取我是你的损失	First the Imperial rejection, now Cambridge. Trinity Hall won’t give me a direct offer and tossed me into the pool instead? Fine, fine—your loss if you don’t admit me.	直录	direct admission	直接录取	CSM
+A-NEO-243	A	NEO	约好在莱山上海滩附近贸易，当打开酒盖后，整个人麻了。怎么办？	约好在莱山上海滩附近贸易，当打开酒盖后，整个人不知所措。怎么办？	We agreed to meet near Shanghai Beach in Laishan for the trade. The moment I opened the liquor bottle, I went numb. What should I do?	整个人麻了	whole person is numb	整个人不知所措	CSM
+A-NEO-249	A	NEO	怒排两个小时 差点以为自己在环球影城 每当你以为要排到的时候发现还要绕蛇饼 超幸运抽到了2 能换到6就最好了有人看看我吗	排了整整两个小时 差点以为自己在环球影城 每当你以为要排到的时候发现还要绕蛇饼 超幸运抽到了2 能换到6就最好了有人看看我吗	Queued furiously for two hours—I almost thought I was at Universal Studios. Every time you think you’re near the front, there’s another endless zigzag. I was super lucky and drew No. 2; it would be perfect if I could trade it for No. 6. Anyone interested?	怒排	angrily queue	排了整整	CSM
+A-NEO-250	A	NEO	什么让我看起来像个小丑🤡	什么让我看起来像个小丑	What makes me look like a clown? 🤡	小丑🤡	clown	小丑	CSM
+A-NEO-251	A	NEO	前站姐 追星丰富 曾后援会皮下管理组 有问必答	前粉丝站负责人 追星丰富 曾后援会皮下管理组 有问必答	Former fan-site admin with years of fandom experience; previously part of a fan support club’s behind-the-scenes management team. Ask me anything.	站姐	fan station leader	粉丝站负责人	CSM
+A-NEO-252	A	NEO	这是哪套啊，怎么从未见过 这是又被偷跑了？	这是哪套啊，怎么从未见过 这是又被提前泄露了？	Which set is this? I’ve never seen it before. Did it get leaked early again?	偷跑	leak early	提前泄露	CSM
+A-MIX-001	A	MIX	K宝，冰上的精灵	卡米拉·瓦利耶娃，冰上的精灵	Kamila Valieva, an ice fairy.	K宝	Kamila Valieva ‖ Kamila	卡米拉·瓦利耶娃	CSM
+A-MIX-002	A	MIX	图fine秒mine[doge]	图很好看，我立刻保存了[doge]	Great pic—saved it instantly. [doge]	fine秒mine	looks great, saved it instantly ‖ great pic, instantly mine	很好看，我立刻保存了	CSM
+A-MIX-003	A	MIX	erguotou二锅头[doge]	二锅头[doge]	Erguotou baijiu. [doge]	erguotou二锅头	erguotou ‖ Chinese baijiu	二锅头	CSM
+A-MIX-004	A	MIX	王鹤棣黑夜告白杀青多机位完整版原声CUT	王鹤棣黑夜告白杀青多机位完整版原声片段	Full multi-camera cut with original audio from Dylan Wang’s wrap on Light to the Night.	CUT	clip ‖ cut	片段	CSM
+A-PYA-013	A	PYA	kou令:美事相伴福运满堂80	口令:美事相伴福运满堂80	Passphrase: “May good things be with you and good fortune fill your home”; code 80.	kou令	passphrase ‖ code word	口令	CSM
+A-MIX-006	A	MIX	请你说英语，speeekyingyu	请你说英语，说英语	Please speak English.	speeekyingyu	speak English ‖ please speak English	说英语	CSM
+A-PYA-014	A	PYA	a萍五官挺好的	阿萍五官挺好的	A-Ping has really attractive facial features.	a萍	A-Ping ‖ Ah Ping	阿萍	CSM
+A-PYA-015	A	PYA	已关注qiu fen xiang	已关注求分享	I've followed you—please share it with me.	qiu fen xiang	please share ‖ asking you to share it	求分享	CSM
+A-MIX-009	A	MIX	le｜我的故事是双女主	女同性恋题材｜我的故事是双女主	Lesbian fiction | My story has two female leads.	le	lesbian fiction ‖ GL	女同性恋题材	CSM
+A-MIX-010	A	MIX	主页ep和隐藏	主页有公开剧集和隐藏内容	Public episodes and hidden content are on my profile.	主页ep和隐藏	public episodes and hidden content	主页有公开剧集和隐藏内容	CSM
+A-MIX-011	A	MIX	一想到这是谁家 crush ，我就想笑	一想到这是谁家 暗恋对象 ，我就想笑	I laugh every time I think about whose crush this is.	crush	crush ‖ secret admirer	暗恋对象	CSM
+A-MIX-014	A	MIX	我真的很喜欢这对CP，谢谢你的英文字幕。迫不及待想看下一集了	我真的很喜欢这对组合，谢谢你的英文字幕。迫不及待想看下一集了	I really love this pairing. Thanks for the English subtitles—I can’t wait for the next episode.	CP	CP ‖ couple ‖ pairing	组合	CSM
+A-MIX-016	A	MIX	LOL...你到底在说什么	哈哈...你到底在说什么	LOL... what are you even talking about?	LOL	LOL ‖ laugh out loud	哈哈	CSM
+A-MIX-018	A	MIX	𝙡𝙞𝙫𝙚清清爽爽的幸福瞬间🐚🌾🍄‍🟫	实况清清爽爽的幸福瞬间🐚🌾🍄‍🟫	Live photos of fresh, carefree moments of happiness 🐚🌾🍄‍🟫	𝙡𝙞𝙫𝙚	live photo	实况	CSM
+A-MIX-025	A	MIX	“我是ENTP”接下来，生成一朵关于它的花：	“我是辩论家型人格”接下来，生成一朵关于它的花：	“I’m an ENTP.” Next, generate a flower inspired by it:	ENTP	ENTP	辩论家型人格	CSM
+A-MIX-027	A	MIX	像ins偷了喧嚣的毛	像Instagram偷了喧嚣的毛	It looks like Instagram stole Xuanxiao’s fur.	ins	Instagram	Instagram	CSM
+A-MIX-029	A	MIX	#ENFJ型人格	#主人公型人格	#ENFJPersonality	ENFJ型人格	ENFJ	主人公型人格	CSM
+A-MIX-030	A	MIX	可以做天文介紹的視頻，或是 #ufo外星人 相關的視頻	可以做天文介紹的視頻，或是 #不明飞行物或外星人 相關的視頻	You could make videos introducing astronomy or videos about #UFOs and aliens.	ufo外星人	UFOs or aliens	不明飞行物或外星人	CSM
+A-MIX-034	A	MIX	IG年轻人爱用的“hype boy”是什么意思	Instagram年轻人爱用的“hype boy”是什么意思	What does “hype boy,” a phrase young people use on Instagram, mean?	IG	Instagram ‖ IG	Instagram	CSM
+A-MIX-035	A	MIX	赵一博冰条钩织get(附图解)	赵一博冰条钩织完成(附图解)	Zhao Yibo’s chenille-yarn crochet—learned it (diagram included).	钩织get	finished crocheting ‖ got the crochet done	钩织完成	CSM
+A-MIX-036	A	MIX	🇺🇸🍽️｜纽约最适合date的餐厅出现了❗️	🇺🇸🍽️｜纽约最适合约会的餐厅出现了❗️	🇺🇸🍽️ | I’ve found the perfect restaurant for a date in New York❗️	date	date	约会	CSM
+A-MIX-037	A	MIX	mark一些漂亮的秋冬美甲10.0	收藏一些漂亮的秋冬美甲10.0	Saving some pretty fall/winter nail designs 10.0.	mark	mark ‖ save	收藏	CSM
+A-MIX-040	A	MIX	小wieiad vlog 🖤	简短的一日饮食视频 🖤	A little What I Eat in a Day vlog 🖤	小wieiad vlog	a short What I Eat in a Day vlog	简短的一日饮食视频	CSM
+A-MIX-041	A	MIX	POV：你是个女的，在北京打开了datingapp	第一视角：你是个女的，在北京打开了datingapp	POV: You’re a woman opening a dating app in Beijing.	POV	POV ‖ point of view	第一视角	CSM
+A-MIX-042	A	MIX	i人在首尔住到了本命酒店！明洞！值哭😭	内向者在首尔住到了本命酒店！明洞！值哭😭	An introvert stayed at their dream hotel in Seoul! Myeong-dong! Worth every tear 😭	i人	introvert ‖ I-person	内向者	CSM
+A-MIX-044	A	MIX	想大海和sun kissed life	想大海和阳光生活	Missing the ocean and a sun-kissed life.	sun kissed life	sun-kissed life	阳光生活	CSM
+A-MIX-045	A	MIX	改一个要发财的ID	改一个要发财的账号	Changing my username to something that’ll make me rich.	ID	ID ‖ username	账号	CSM
+A-MIX-046	A	MIX	东郊记忆一日Citywalk（逛吃攻略平价版！	东郊记忆一日城市漫步（逛吃攻略平价版！	One-day city walk at Eastern Suburb Memory (budget food-and-shopping guide!)	Citywalk	city walk ‖ urban stroll	城市漫步	CSM
+A-MIX-047	A	MIX	台北｜I人天堂有switch 跟按摩椅的高級貓咖	台北｜内向者天堂有switch 跟按摩椅的高級貓咖	Taipei | An introvert’s dream: an upscale cat café with a Switch and massage chairs.	I人	introvert ‖ I-person	内向者	CSM
+A-MIX-048	A	MIX	周大福故宫系列编绳🔥live图直出✨追求完美✨	周大福故宫系列编绳🔥实况照片直出✨追求完美✨	Chow Tai Fook Palace Museum braided bracelet 🔥 Straight-from-Live-Photo shots ✨ Chasing perfection ✨	live图	live	实况照片	CSM
+A-MIX-049	A	MIX	新美甲look♡♩波点熊仔🐻🍒🎀圣诞氛围感	新美甲造型♡♩波点熊仔🐻🍒🎀圣诞氛围感	New nail look ♡♩ Polka-dot teddy bears 🐻🍒🎀 Christmas vibes.	look	look ‖ outfit	造型	CSM
+A-MIX-050	A	MIX	一寒出生前4h	一寒出生前4小时	4 hours before Yihan was born.	4h	4 hours	4小时	CSM
+A-MIX-051	A	MIX	GRWM*🦹🏻‍♀️🏳️‍⚧️毛绒穿出街👊🏻	准备出门*🦹🏻‍♀️🏳️‍⚧️毛绒穿出街👊🏻	GRWM* 🦹🏻‍♀️🏳️‍⚧️ Wearing fluffy clothes out 👊🏻	GRWM	GRWM ‖ get ready with me	准备出门	CSM
+A-MIX-052	A	MIX	轻松熊ascii art⊹ ࣪𓍢ִ໋⋆🍰ೀ⋆	轻松熊字符画⊹ ࣪𓍢ִ໋⋆🍰ೀ⋆	Rilakkuma ASCII art ⊹ ࣪𓍢ִ໋⋆🍰ೀ⋆	ascii art	ASCII art	字符画	CSM
+A-MIX-053	A	MIX	福冈Citywalk | 博多一日游指南🎀购物分享	福冈城市漫步 | 博多一日游指南🎀购物分享	Fukuoka city walk | One-day guide to Hakata 🎀 Shopping haul.	Citywalk	city walk ‖ urban stroll	城市漫步	CSM
+A-MIX-054	A	MIX	75折买lulu真的不用找代购！	75折买Lululemon真的不用找代购！	You really don’t need a personal shopper to get 25% off Lululemon!	lulu	Lululemon	Lululemon	CSM
+A-MIX-055	A	MIX	街边拍照姿势✨get韩女氛围	街边拍照姿势✨营造韩系女生氛围	Learn these street photo poses ✨ and get that Korean-girl vibe.	get韩女氛围	get that Korean-girl vibe	营造韩系女生氛围	CSM
+A-MIX-056	A	MIX	想看看大家的iwatch表盘！	想看看大家的Apple Watch表盘！	I want to see everyone’s Apple Watch faces!	iwatch	Apple Watch	Apple Watch	CSM
+A-MIX-057	A	MIX	PS索尼高达GM混合体（非我的作品）	Photoshop索尼高达GM混合体（非我的作品）	Photoshop mashup of Sony and Gundam GM (not my work).	PS	PS ‖ Photoshop	Photoshop	CSM
+A-MIX-061	A	MIX	本人也是INFJ，很难很难和别人相处到内心深处 目前相处最舒服是INTJ 但是缺了一点情感的共鸣	本人也是提倡者型人格，很难很难和别人相处到内心深处 目前相处最舒服是INTJ 但是缺了一点情感的共鸣	I’m an INFJ too, and it’s extremely hard for me to connect deeply with people. I’m most comfortable with INTJs so far, but there’s still a little emotional resonance missing.	INFJ	INFJ	提倡者型人格	CSM
+A-MIX-062	A	MIX	cursh微叫seven，怎么取名🤔	暗恋对象的微信名叫Seven，怎么取名🤔	My crush’s WeChat name is Seven—what nickname should I use? 🤔	cursh微叫seven	my crush's WeChat name is Seven	暗恋对象的微信名叫Seven	CSM
+A-MIX-064	A	MIX	当艾莎来到冰雪世界，应该是女王回到主场了吧 AIGC概念设计©️布谷咕咕咕BUGU 想看看大家的冰雪美图	当艾莎来到冰雪世界，应该是女王回到主场了吧 AI生成概念设计©️布谷咕咕咕BUGU 想看看大家的冰雪美图	When Elsa enters a world of ice and snow, it’s basically the queen returning to her home turf, right? AI-generated concept design ©️ BUGU. Show me your beautiful winter pictures.	AIGC	AIGC ‖ AI-generated content	AI生成	CSM
+A-MIX-065	A	MIX	把你的英语作业发给我。我会帮助你。#tiktokrefuge[话题]# #englishhomework[话题]#	把你的英语作业发给我。我会帮助你。#TikTok难民[话题]# #englishhomework[话题]#	Send me your English homework. I’ll help you. #TikTokRefugee #EnglishHomework	tiktokrefuge	TikTok refugee	TikTok难民	CSM
+A-MIX-071	A	MIX	弘大4️⃣家宝藏低价Airbnb合集！人均100r+！！	弘大4️⃣家宝藏低价民宿合集！人均100r+！！	Four hidden-gem budget Airbnbs in Hongdae! Just over ¥100 per person!!	Airbnb	Airbnb	民宿	CSM
+A-MIX-072	A	MIX	这还不看！？日网最新24年度番剧TOP15!	这还不看！？日网最新24年度番剧前15!	How can you not watch this?! Japan’s latest Top 15 anime of 2024!	TOP	TOP	前	CSM
+A-MIX-073	A	MIX	黄皮淡颜低饱和蜜桃口红分享soft peach✨🍑	黄皮淡颜低饱和蜜桃口红分享：柔和蜜桃色✨🍑	Low-saturation soft peach lipstick picks for warm/yellow skin and delicate features ✨🍑	分享soft peach	soft peach	分享：柔和蜜桃色	CSM
+A-MIX-075	A	MIX	宝宝脸颊肉回来啦 状态也挺好哒 活泼的小女孩终于回来啦 可爱！live怼脸get！	宝宝脸颊肉回来啦 状态也挺好哒 活泼的小女孩终于回来啦 可爱！实况照片近距离拍摄成功！	Baby’s chubby cheeks are back, and she looks great too. Our lively little girl is finally back—so cute! Live close-up achieved!	live怼脸get	live close-up achieved	实况照片近距离拍摄成功	CSM

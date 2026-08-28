@@ -1,0 +1,26 @@
+
+=== table A  (../r3_exp_result/r3b/results_A) ===
+  [missing] b1: ../r3_exp_result/r3b/results_A/segments_qwen3-8b-b1.tsv
+  [missing] b3: ../r3_exp_result/r3b/results_A/segments_qwen3-8b-b3.tsv
+  clean-side b2 vs b0: identical (reuse verified)
+
+  [XCOMET, noisy side]
+    b2-b0:   -2.15  [ -3.46,  -0.86]  p=0.0000  n=267  gate fail  PRIMARY gate
+
+  [NTA, noisy side]
+    b2-b0:   -0.37  [ -4.49,  +3.37]  p=0.8850  n=267  gate fail  PRIMARY gate
+
+  [XCOMET noisy, b2-b1 by category — exploratory]
+
+=== table B  (../r3_exp_result/r3b/results_B) ===
+  [missing] b1: ../r3_exp_result/r3b/results_B/segments_qwen3-8b-b1.tsv
+  [missing] b3: ../r3_exp_result/r3b/results_B/segments_qwen3-8b-b3.tsv
+  clean-side b2 vs b0: identical (reuse verified)
+
+  [XCOMET, noisy side]
+    b2-b0:   -1.40  [ -2.30,  -0.44]  p=0.0030  n=492  gate fail  PRIMARY gate
+
+  [NTA, noisy side]
+    b2-b0:   +0.41  [ -2.24,  +3.25]  p=0.8050  n=492  gate fail  PRIMARY gate
+
+  [XCOMET noisy, b2-b1 by category — exploratory]

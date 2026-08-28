@@ -1,0 +1,6 @@
+category	n	mean_editdist	mean_len_noisy
+HOM	17	1.88	12.59
+PYA	15	3.73	13.53
+NEO	191	4.69	15.51
+MIX	44	6.11	21.09
+all	267	4.69	16.13

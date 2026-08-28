@@ -1,0 +1,166 @@
+
+=== table A  (../r3_exp_result/r3b/results_A_r3b2) ===
+  [missing] b1: ../r3_exp_result/r3b/results_A_r3b2/segments_qwen3-8b-b1.tsv
+  [missing] b3: ../r3_exp_result/r3b/results_A_r3b2/segments_qwen3-8b-b3.tsv
+  clean-side b2 vs b0: identical (reuse verified)
+  clean-side b1s vs b0: identical (reuse verified)
+  clean-side b2s vs b0: identical (reuse verified)
+  clean-side b3s vs b0: identical (reuse verified)
+
+  [output-contract violations, noisy side]
+    b0     2/267 rows  {'multiline': 1, 'echo_src': 1}
+    b2    10/267 rows  {'code': 5, 'multiline': 4, 'meta': 1}  mean XCOMET vs b0 on them -29.43  (pulls the arm's overall mean by -1.10)
+    b1s    1/267 rows  {'meta': 1}  mean XCOMET vs b0 on them -74.93  (pulls the arm's overall mean by -0.28)
+    b2s    0/267 rows  
+    b3s    0/267 rows  
+
+  [XCOMET, noisy side]
+    b2-b0:   -2.15  [ -3.46,  -0.86]  p=0.0000  n=267  gate fail  PRIMARY gate (pre-registered, v1 prompts)
+    b2s-b1s:   -1.21  [ -2.40,  -0.05]  p=0.0430  n=267  gate fail  POST-HOC KEY: detector info, scaffold held constant
+    b2s-b0:   -2.50  [ -3.81,  -1.28]  p=0.0000  n=267  gate fail  POST-HOC: repaired pipeline vs benchmark
+    b1s-b0:   -1.28  [ -2.55,  -0.13]  p=0.0270  n=267  gate fail  POST-HOC: cost/benefit of the scaffold alone
+    b3s-b2s:   +5.15  [ +3.73,  +6.75]  p=0.0000  n=267  gate PASS  POST-HOC: headroom left to detector quality
+    b3s-b1s:   +3.94  [ +2.65,  +5.43]  p=0.0000  n=267  gate PASS  POST-HOC: oracle ceiling over the control
+    b3s-b0:   +2.66  [ +1.29,  +4.16]  p=0.0000  n=267  gate PASS  POST-HOC: oracle vs the benchmark row itself
+    b2s-b2:   -0.35  [ -1.55,  +0.91]  p=0.5680  n=267  gate fail  POST-HOC: what the output contract alone bought
+
+  [NTA, noisy side]
+    b2-b0:   -0.37  [ -4.49,  +3.37]  p=0.8850  n=267  gate fail  PRIMARY gate (pre-registered, v1 prompts)
+    b2s-b1s:   +0.75  [ -2.62,  +4.49]  p=0.7520  n=267  gate fail  POST-HOC KEY: detector info, scaffold held constant
+    b2s-b0:   -1.12  [ -5.62,  +3.00]  p=0.6740  n=267  gate fail  POST-HOC: repaired pipeline vs benchmark
+    b1s-b0:   -1.87  [ -6.37,  +2.25]  p=0.4170  n=267  gate fail  POST-HOC: cost/benefit of the scaffold alone
+    b3s-b2s:  +11.24  [ +5.62, +16.85]  p=0.0000  n=267  gate PASS  POST-HOC: headroom left to detector quality
+    b3s-b1s:  +11.99  [ +5.99, +17.98]  p=0.0000  n=267  gate PASS  POST-HOC: oracle ceiling over the control
+    b3s-b0:  +10.11  [ +4.12, +16.10]  p=0.0010  n=267  gate PASS  POST-HOC: oracle vs the benchmark row itself
+    b2s-b2:   -0.75  [ -4.49,  +3.37]  p=0.8080  n=267  gate fail  POST-HOC: what the output contract alone bought
+
+  [XCOMET noisy, b2s-b1s by category — exploratory]
+    HOM:   -0.02  [ -3.26,  +3.36]  p=0.9970  n= 17  gate fail  
+    PYA:   +2.51  [ -4.60, +12.13]  p=0.6210  n= 15  gate fail  
+    NEO:   -0.84  [ -2.08,  +0.33]  p=0.1670  n=191  gate fail  
+    MIX:   -4.58  [ -8.66,  -1.34]  p=0.0010  n= 44  gate fail  
+
+  [NTA noisy, b2s-b1s by category — exploratory]
+    HOM:   +0.00  [-17.65, +17.65]  p=1.0000  n= 17  gate fail  
+    PYA:   +0.00  [ +0.00,  +0.00]  p=1.0000  n= 15  gate fail  
+    NEO:   +1.05  [ -3.14,  +5.24]  p=0.6820  n=191  gate fail  
+    MIX:   +0.00  [-13.64, +13.64]  p=1.0000  n= 44  gate fail  
+
+  [XCOMET noisy, b2s-b0 by category — exploratory]
+    HOM:   -2.58  [ -6.86,  +1.14]  p=0.2050  n= 17  gate fail  
+    PYA:   -2.65  [ -7.93,  +1.91]  p=0.2750  n= 15  gate fail  
+    NEO:   -1.98  [ -3.44,  -0.58]  p=0.0040  n=191  gate fail  
+    MIX:   -4.64  [ -9.21,  -0.72]  p=0.0200  n= 44  gate fail  
+
+  [NTA noisy, b2s-b0 by category — exploratory]
+    HOM:  +11.76  [ +0.00, +29.41]  p=0.2340  n= 17  gate fail  
+    PYA:   +6.67  [ +0.00, +20.00]  p=0.7140  n= 15  gate fail  
+    NEO:   -1.57  [ -6.28,  +3.14]  p=0.5990  n=191  gate fail  
+    MIX:   -6.82  [-22.73,  +9.09]  p=0.4700  n= 44  gate fail  
+
+  [XCOMET noisy, b3s-b0 by category — exploratory]
+    HOM:   -1.07  [ -6.76,  +3.76]  p=0.6960  n= 17  gate fail  
+    PYA:   +1.12  [ -3.92,  +7.91]  p=0.7830  n= 15  gate fail  
+    NEO:   +3.30  [ +1.57,  +5.13]  p=0.0000  n=191  gate PASS  
+    MIX:   +1.83  [ -1.40,  +4.97]  p=0.2660  n= 44  gate fail  
+
+  [NTA noisy, b3s-b0 by category — exploratory]
+    HOM:  +47.06  [+17.65, +76.47]  p=0.0020  n= 17  gate PASS  
+    PYA:  +26.67  [ +6.67, +46.67]  p=0.0200  n= 15  gate PASS  
+    NEO:   +7.33  [ +1.05, +14.14]  p=0.0320  n=191  gate PASS  
+    MIX:   +2.27  [-13.64, +18.18]  p=0.9220  n= 44  gate fail  
+
+  [XCOMET noisy, b3s-b1s by category — exploratory]
+    HOM:   +1.49  [ -1.53,  +4.85]  p=0.3360  n= 17  gate fail  
+    PYA:   +6.29  [ -0.58, +16.40]  p=0.1130  n= 15  gate fail  
+    NEO:   +4.45  [ +2.76,  +6.13]  p=0.0000  n=191  gate PASS  
+    MIX:   +1.89  [ -0.95,  +4.53]  p=0.2090  n= 44  gate fail  
+
+  [NTA noisy, b3s-b1s by category — exploratory]
+    HOM:  +35.29  [+11.76, +64.71]  p=0.0170  n= 17  gate PASS  
+    PYA:  +20.00  [ +0.00, +40.00]  p=0.0790  n= 15  gate fail  
+    NEO:   +9.95  [ +3.66, +16.75]  p=0.0030  n=191  gate PASS  
+    MIX:   +9.09  [ -6.82, +25.00]  p=0.3430  n= 44  gate fail  
+
+=== table B  (../r3_exp_result/r3b/results_B_r3b2) ===
+  [missing] b1: ../r3_exp_result/r3b/results_B_r3b2/segments_qwen3-8b-b1.tsv
+  [missing] b3: ../r3_exp_result/r3b/results_B_r3b2/segments_qwen3-8b-b3.tsv
+  clean-side b2 vs b0: identical (reuse verified)
+  clean-side b1s vs b0: identical (reuse verified)
+  clean-side b2s vs b0: identical (reuse verified)
+  clean-side b3s vs b0: identical (reuse verified)
+
+  [output-contract violations, noisy side]
+    b0     1/492 rows  {'multiline': 1}
+    b2    10/492 rows  {'multiline': 7, 'code': 3}  mean XCOMET vs b0 on them -36.23  (pulls the arm's overall mean by -0.74)
+    b1s    3/492 rows  {'echo_src': 1, 'meta': 2}  mean XCOMET vs b0 on them -48.05  (pulls the arm's overall mean by -0.29)
+    b2s    4/492 rows  {'multiline': 3, 'meta': 1}  mean XCOMET vs b0 on them -21.51  (pulls the arm's overall mean by -0.17)
+    b3s    4/492 rows  {'meta': 2, 'multiline': 2}  mean XCOMET vs b0 on them -42.79  (pulls the arm's overall mean by -0.35)
+
+  [XCOMET, noisy side]
+    b2-b0:   -1.40  [ -2.30,  -0.44]  p=0.0030  n=492  gate fail  PRIMARY gate (pre-registered, v1 prompts)
+    b2s-b1s:   +0.01  [ -0.69,  +0.75]  p=1.0000  n=492  gate fail  POST-HOC KEY: detector info, scaffold held constant
+    b2s-b0:   -0.43  [ -1.30,  +0.41]  p=0.3170  n=492  gate fail  POST-HOC: repaired pipeline vs benchmark
+    b1s-b0:   -0.44  [ -1.26,  +0.38]  p=0.3190  n=492  gate fail  POST-HOC: cost/benefit of the scaffold alone
+    b3s-b2s:   +0.41  [ -0.51,  +1.30]  p=0.3890  n=492  gate fail  POST-HOC: headroom left to detector quality
+    b3s-b1s:   +0.42  [ -0.45,  +1.34]  p=0.3790  n=492  gate fail  POST-HOC: oracle ceiling over the control
+    b3s-b0:   -0.02  [ -1.02,  +0.99]  p=0.9760  n=492  gate fail  POST-HOC: oracle vs the benchmark row itself
+    b2s-b2:   +0.97  [ +0.11,  +1.87]  p=0.0280  n=492  gate PASS  POST-HOC: what the output contract alone bought
+
+  [NTA, noisy side]
+    b2-b0:   +0.41  [ -2.24,  +3.25]  p=0.8050  n=492  gate fail  PRIMARY gate (pre-registered, v1 prompts)
+    b2s-b1s:   +0.20  [ -2.24,  +2.64]  p=0.9760  n=492  gate fail  POST-HOC KEY: detector info, scaffold held constant
+    b2s-b0:   +1.02  [ -1.63,  +3.86]  p=0.5000  n=492  gate fail  POST-HOC: repaired pipeline vs benchmark
+    b1s-b0:   +0.81  [ -1.63,  +3.25]  p=0.5550  n=492  gate fail  POST-HOC: cost/benefit of the scaffold alone
+    b3s-b2s:   +5.69  [ +1.83,  +9.55]  p=0.0040  n=492  gate PASS  POST-HOC: headroom left to detector quality
+    b3s-b1s:   +5.89  [ +1.83,  +9.96]  p=0.0030  n=492  gate PASS  POST-HOC: oracle ceiling over the control
+    b3s-b0:   +6.71  [ +2.64, +10.77]  p=0.0000  n=492  gate PASS  POST-HOC: oracle vs the benchmark row itself
+    b2s-b2:   +0.61  [ -1.63,  +2.85]  p=0.6620  n=492  gate fail  POST-HOC: what the output contract alone bought
+
+  [XCOMET noisy, b2s-b1s by category — exploratory]
+    HOM:   -0.54  [ -2.43,  +1.08]  p=0.5390  n=123  gate fail  
+    PYA:   +1.07  [ -0.88,  +3.28]  p=0.2810  n=108  gate fail  
+    NEO:   -0.46  [ -1.62,  +0.75]  p=0.4700  n=117  gate fail  
+    MIX:   +0.05  [ -0.66,  +0.80]  p=0.9100  n=144  gate fail  
+
+  [NTA noisy, b2s-b1s by category — exploratory]
+    HOM:   +2.44  [ -3.25,  +8.13]  p=0.4910  n=123  gate fail  
+    PYA:   +3.70  [ +0.00,  +8.33]  p=0.1230  n=108  gate fail  
+    NEO:   -3.42  [ -8.55,  +1.71]  p=0.2540  n=117  gate fail  
+    MIX:   -1.39  [ -5.56,  +2.78]  p=0.6280  n=144  gate fail  
+
+  [XCOMET noisy, b2s-b0 by category — exploratory]
+    HOM:   -0.56  [ -2.79,  +1.72]  p=0.6220  n=123  gate fail  
+    PYA:   -1.14  [ -3.02,  +0.67]  p=0.2230  n=108  gate fail  
+    NEO:   +0.66  [ -0.85,  +2.23]  p=0.3880  n=117  gate fail  
+    MIX:   -0.68  [ -1.57,  +0.27]  p=0.1570  n=144  gate fail  
+
+  [NTA noisy, b2s-b0 by category — exploratory]
+    HOM:   +0.81  [ -4.88,  +6.50]  p=0.8560  n=123  gate fail  
+    PYA:   +1.85  [ -1.85,  +6.48]  p=0.5360  n=108  gate fail  
+    NEO:   +2.56  [ -3.42,  +8.55]  p=0.4960  n=117  gate fail  
+    MIX:   -0.69  [ -5.56,  +4.86]  p=0.9100  n=144  gate fail  
+
+  [XCOMET noisy, b3s-b0 by category — exploratory]
+    HOM:   +2.94  [ +0.80,  +5.01]  p=0.0090  n=123  gate PASS  
+    PYA:   -3.27  [ -5.84,  -0.82]  p=0.0100  n=108  gate fail  
+    NEO:   +1.81  [ -0.15,  +3.92]  p=0.0720  n=117  gate fail  
+    MIX:   -1.62  [ -2.75,  -0.57]  p=0.0030  n=144  gate fail  
+
+  [NTA noisy, b3s-b0 by category — exploratory]
+    HOM:  +19.51  [+10.57, +29.27]  p=0.0000  n=123  gate PASS  
+    PYA:   +6.48  [ +0.00, +13.89]  p=0.0840  n=108  gate fail  
+    NEO:  +11.97  [ +4.27, +19.66]  p=0.0060  n=117  gate PASS  
+    MIX:   -8.33  [-15.28,  -2.08]  p=0.0210  n=144  gate fail  
+
+  [XCOMET noisy, b3s-b1s by category — exploratory]
+    HOM:   +2.96  [ +1.17,  +4.77]  p=0.0020  n=123  gate PASS  
+    PYA:   -1.05  [ -3.65,  +1.40]  p=0.4150  n=108  gate fail  
+    NEO:   +0.68  [ -1.26,  +2.69]  p=0.4860  n=117  gate fail  
+    MIX:   -0.88  [ -1.81,  +0.04]  p=0.0610  n=144  gate fail  
+
+  [NTA noisy, b3s-b1s by category — exploratory]
+    HOM:  +21.14  [+12.20, +30.08]  p=0.0000  n=123  gate PASS  
+    PYA:   +8.33  [ +1.85, +15.74]  p=0.0100  n=108  gate PASS  
+    NEO:   +5.98  [ -3.42, +14.53]  p=0.2360  n=117  gate fail  
+    MIX:   -9.03  [-15.28,  -3.47]  p=0.0030  n=144  gate fail  

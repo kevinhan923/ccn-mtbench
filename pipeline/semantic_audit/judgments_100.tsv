@@ -1,0 +1,101 @@
+n	uid	category	branch	noise_span	noise_std	llm_verdict	reason	author_verdict	final
+1	P-PYA-0861	PYA	injected	ykk	有空	INACCURATE	wrong-reading: 有空=yk, 'ykk' 首字母对不上		INACCURATE
+2	P-MIX-1398	MIX	injected	really	真的	ACCURATE			ACCURATE
+3	P-MIX-0397	MIX	injected	PO主	楼主	ACCURATE			ACCURATE
+4	P-NEO-0020	NEO	mined	崩铁	崩坏:星穹铁道	ACCURATE			ACCURATE
+5	P-PYA-0526	PYA	injected	zggmd	中国共产党	INACCURATE	wrong-reading: zggmd 解码为'中国国民党'(z-g-g-m-d), std 却写'中国共产党'(zggcd)		INACCURATE
+6	P-PYA-0917	PYA	injected	qishi	其实	UNCERTAIN	qishi 是全拼不是首字母缩写——PYA 类是否含全拼待裁定	ACCURATE	ACCURATE
+7	P-NEO-1015	NEO	annotated	种草了除螨仪	让我想买除螨仪	ACCURATE			ACCURATE
+8	P-NEO-1064	NEO	mined	oo	哦哦	UNCERTAIN	'oo'读作'哦哦'存疑(可能是颜文字), 且若是拼音应属 PYA 而非 NEO	INACCURATE	INACCURATE
+9	P-MIX-0469	MIX	mined	JS	技术人员	UNCERTAIN	装机语境 JS 惯例=奸商(PYA), std 写'技术人员'疑误	INACCURATE	INACCURATE
+10	P-MIX-0162	MIX	mined	pc端	电脑端	ACCURATE			ACCURATE
+11	P-HOM-1551	HOM	injected	自鸡	自己	ACCURATE			ACCURATE
+12	P-PYA-1511	PYA	injected	jzftdym	借着发帖的名义	INACCURATE	wrong-reading: 借着发帖的名义=jzftdmy, span 是 jzftdym(末两位倒置)		INACCURATE
+13	P-PYA-0576	PYA	injected	tjl	太假了	ACCURATE			ACCURATE
+14	P-MIX-0871	MIX	injected	open	开通	ACCURATE			ACCURATE
+15	P-HOM-2358	HOM	mined	夯	香	ACCURATE			ACCURATE
+16	P-PYA-0558	PYA	injected	xihuan	喜欢	UNCERTAIN	同6: xihuan 全拼, 类别待裁定	ACCURATE	ACCURATE
+17	P-MIX-1202	MIX	injected	issue	问题	ACCURATE			ACCURATE
+18	P-MIX-1591	MIX	injected	effort	努力了	UNCERTAIN	'我们effort'读作'我们努力了'语法勉强, 语义等价存疑	ACCURATE	ACCURATE
+19	P-NEO-1279	NEO	mined	宝子们	大家	ACCURATE			ACCURATE
+20	P-HOM-0733	HOM	mined	杯具	悲剧	ACCURATE			ACCURATE
+21	P-HOM-0015	HOM	injected	新动	心动	ACCURATE			ACCURATE
+22	P-MIX-0688	MIX	injected	filter	多放红油	INACCURATE	wrong-reading: filter 与'多放红油'毫无语义关联		INACCURATE
+23	P-HOM-1364	HOM	injected	想布通	想不通	ACCURATE			ACCURATE
+24	P-HOM-0227	HOM	injected	号冷	好冷	ACCURATE			ACCURATE
+25	P-HOM-0224	HOM	injected	为神马	为什么	ACCURATE			ACCURATE
+26	P-HOM-1416	HOM	injected	一哥夏天	一个下午	INACCURATE	wrong-std: '一哥夏天'应还原为'一个夏天', std 写'一个下午'(天≠午)		INACCURATE
+27	P-PYA-1683	PYA	injected	xyx	下意识	INACCURATE	wrong-reading: 下意识=xys, span 是 xyx		INACCURATE
+28	P-NEO-0621	NEO	mined	惊掉我下巴	惊讶得下巴都掉了	UNCERTAIN	'惊掉我下巴'较常规的形象说法, 是否算噪声/NEO 待裁定	ACCURATE	ACCURATE
+29	P-NEO-0845	NEO	annotated	欣赏颜值	欣赏外貌	ACCURATE			ACCURATE
+30	P-NEO-1277	NEO	mined	胖达人	吃货达人	INACCURATE	wrong-reading: 语境(面包+小S)中'胖达人'是面包店品牌名, 非'吃货达人'		INACCURATE
+31	P-HOM-2125	HOM	injected	手货	收获	ACCURATE			ACCURATE
+32	P-NEO-0427	NEO	mined	地球online	现实生活	ACCURATE			ACCURATE
+33	P-MIX-0298	MIX	injected	citywalk	碣石	INACCURATE	wrong-reading: '东临citywalk'是玩梗拼接, citywalk 与'碣石'无语义关系		INACCURATE
+34	P-MIX-0346	MIX	injected	nobody	没人	ACCURATE			ACCURATE
+35	P-PYA-1553	PYA	injected	hhxx	多练习	UNCERTAIN	hhxx 解码应为'好好学习', std 写'多练习'——语义近但非解码, 严格度待裁定	INACCURATE	INACCURATE
+36	P-MIX-1302	MIX	injected	video	视频	ACCURATE			ACCURATE
+37	P-MIX-0534	MIX	injected	feedback	书评	ACCURATE			ACCURATE
+38	P-HOM-1601	HOM	injected	碎觉到中午	睡到中午	ACCURATE			ACCURATE
+39	P-HOM-2181	HOM	injected	肥天	飞天	ACCURATE			ACCURATE
+40	P-MIX-0411	MIX	injected	police	警察	ACCURATE			ACCURATE
+41	P-HOM-0997	HOM	injected	口摸会	可能会	UNCERTAIN	'口摸'是否为'可能'的既有谐音写法存疑(口爱=可爱成立, 摸/能不同音)	INACCURATE	INACCURATE
+42	P-HOM-0637	HOM	injected	主冻	主动	ACCURATE			ACCURATE
+43	P-MIX-0571	MIX	injected	message	消息	ACCURATE			ACCURATE
+44	P-MIX-0414	MIX	injected	neck	鸭脖	ACCURATE			ACCURATE
+45	P-PYA-1562	PYA	injected	ym	有命	ACCURATE			ACCURATE
+46	P-MIX-1569	MIX	injected	charm	魅力	ACCURATE			ACCURATE
+47	P-HOM-1653	HOM	mined	风哥	风格	ACCURATE			ACCURATE
+48	P-HOM-1991	HOM	injected	求泥	求你	ACCURATE			ACCURATE
+49	P-HOM-2593	HOM	injected	斑竹	版本	INACCURATE	wrong-reading: '斑竹'是'版主'的经典谐音(竹zhú≠本běn), std 写'版本'		INACCURATE
+50	P-HOM-0496	HOM	mined	企华	奇葩	ACCURATE			ACCURATE
+51	P-HOM-2126	HOM	injected	不蚌吃	不能吃	INACCURATE	wrong-reading: 蚌(bàng)与能(néng)非谐音, 滥用蚌埠梗		INACCURATE
+52	P-HOM-1004	HOM	injected	小退	小腿	ACCURATE			ACCURATE
+53	P-HOM-0074	HOM	injected	小捞头	小老头	ACCURATE			ACCURATE
+54	P-NEO-0976	NEO	mined	老哥	兄弟	UNCERTAIN	'老哥'是常规口语词, 是否算噪声(not-noise)待裁定	ACCURATE	ACCURATE
+55	P-HOM-2187	HOM	injected	分一半揉走	分一半肉走	UNCERTAIN	揉/肉谐音成立, 但 clean'分一半肉走'是否通顺待裁定	ACCURATE	ACCURATE
+56	P-MIX-0230	MIX	injected	China	中国	ACCURATE			ACCURATE
+57	P-MIX-1096	MIX	injected	foreigner	老外	ACCURATE			ACCURATE
+58	P-HOM-2442	HOM	injected	留海	刘海	ACCURATE			ACCURATE
+59	P-HOM-1571	HOM	injected	免费颂	免费送	ACCURATE			ACCURATE
+60	P-PYA-0809	PYA	injected	jcxht	经常喜欢听	ACCURATE			ACCURATE
+61	P-NEO-1051	NEO	mined	上船	加入	UNCERTAIN	'自行车上船'语境不明, 可能是字面上船; clean'自行车加入啊'不通	ACCURATE	ACCURATE
+62	P-PYA-1107	PYA	injected	jf	减肥	ACCURATE			ACCURATE
+63	P-MIX-1674	MIX	injected	trouble	麻烦	ACCURATE			ACCURATE
+64	P-MIX-1095	MIX	injected	happiness	幸福	ACCURATE			ACCURATE
+65	P-PYA-1338	PYA	injected	qzj	驱逐舰	ACCURATE			ACCURATE
+66	P-MIX-0315	MIX	injected	flip	反转	ACCURATE			ACCURATE
+67	P-NEO-1300	NEO	mined	捏	呢	UNCERTAIN	'捏'=呢 是音近替换, 按分类两步归约应为 HOM, 标签是 NEO	ACCURATE	ACCURATE
+68	P-MIX-0976	MIX	annotated	Boss	招聘平台	ACCURATE			ACCURATE
+69	P-HOM-1672	HOM	injected	灰死人的	会死人的	ACCURATE			ACCURATE
+70	P-HOM-1373	HOM	injected	熊狠	凶狠	ACCURATE			ACCURATE
+71	P-NEO-1190	NEO	mined	屑	渣	ACCURATE			ACCURATE
+72	P-PYA-1580	PYA	mined	diao	屌	UNCERTAIN	同6: diao 全拼, 类别待裁定	ACCURATE	ACCURATE
+73	P-PYA-1595	PYA	injected	cx	诚信	ACCURATE			ACCURATE
+74	P-HOM-2571	HOM	injected	竹福	祝福	ACCURATE			ACCURATE
+75	P-MIX-0178	MIX	injected	selfie	自己做过	INACCURATE	wrong-reading: selfie=自拍, std 写'自己做过', 无关联		INACCURATE
+76	P-MIX-0408	MIX	injected	understand	明白	ACCURATE			ACCURATE
+77	P-MIX-0359	MIX	injected	loop	单曲循环	ACCURATE			ACCURATE
+78	P-HOM-2823	HOM	mined	雀食	确实	ACCURATE			ACCURATE
+79	P-NEO-1001	NEO	mined	社会毕业	社会历练	UNCERTAIN	clean'等我从社会历练了'语法不顺, 是否 incoherent 待裁定	ACCURATE	ACCURATE
+80	P-HOM-0704	HOM	injected	和德和能	何德何能	ACCURATE			ACCURATE
+81	P-PYA-1559	PYA	injected	hnc	还能唱	ACCURATE			ACCURATE
+82	P-NEO-1130	NEO	annotated	佛系	随缘	ACCURATE			ACCURATE
+83	P-NEO-0370	NEO	annotated	绝绝子	绝了	ACCURATE			ACCURATE
+84	P-MIX-1639	MIX	injected	direct	直接	ACCURATE			ACCURATE
+85	P-HOM-1694	HOM	injected	没摆花	没白花	ACCURATE			ACCURATE
+86	P-MIX-0567	MIX	injected	mom	妈	ACCURATE			ACCURATE
+87	P-HOM-1447	HOM	injected	汁头	指头	ACCURATE			ACCURATE
+88	P-MIX-1055	MIX	injected	rocket	火箭	ACCURATE			ACCURATE
+89	P-PYA-0274	PYA	injected	wl	晚了	ACCURATE			ACCURATE
+90	P-NEO-1267	NEO	mined	菜	差	ACCURATE			ACCURATE
+91	P-MIX-1150	MIX	injected	flashlight	手电筒	ACCURATE			ACCURATE
+92	P-HOM-0239	HOM	injected	庄那么多	装那么多	ACCURATE			ACCURATE
+93	P-PYA-1407	PYA	injected	pjd	啤酒肚	ACCURATE			ACCURATE
+94	P-MIX-0727	MIX	injected	beauty	美女	ACCURATE			ACCURATE
+95	P-NEO-1071	NEO	mined	蛋疼	难受	ACCURATE			ACCURATE
+96	P-PYA-0425	PYA	injected	gx	跪下	ACCURATE			ACCURATE
+97	P-MIX-0252	MIX	injected	shoulder	肩膀	ACCURATE			ACCURATE
+98	P-PYA-1475	PYA	injected	bdwp	百度网盘	ACCURATE			ACCURATE
+99	P-HOM-0022	HOM	injected	晚晩	晚上	UNCERTAIN	span 第二字'晩'是'晚'的异体字, 晚晚(每晚)≠晚上, 现象与类别待裁定	INACCURATE	INACCURATE
+100	P-MIX-0427	MIX	injected	TikTok	抖音	ACCURATE			ACCURATE

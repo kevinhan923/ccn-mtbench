@@ -1,0 +1,5 @@
+model_a	model_b	metric	n	mean_a	mean_b	diff	ci_lo	ci_hi	p_boot
+nllb-3.3b	qwen3-8b	xcomet_d	267	11.13	7.86	3.27	0.71	5.75	0.015
+qwen3-8b	gpt-4o	xcomet_d	267	7.86	6.31	1.55	0.40	2.72	0.005
+nllb-3.3b	gpt-4o	xcomet_d	267	11.13	6.31	4.81	2.39	7.25	0.000
+qwen3-8b	qwen3-32b	xcomet_d	267	7.86	6.79	1.08	-0.11	2.35	0.072

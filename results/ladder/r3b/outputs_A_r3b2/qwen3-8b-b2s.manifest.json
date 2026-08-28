@@ -1,0 +1,71 @@
+{
+  "kind": "r3b-translate",
+  "created": "2026-07-30T10:12:00",
+  "protocol": {
+    "decoding": "greedy (do_sample=False)",
+    "max_new_tokens": 512,
+    "api_temperature": 0.0,
+    "thinking": "disabled (Qwen3 enable_thinking=False)",
+    "prompt": "unified, verbatim per RESEARCH_PLAN §6; frozen pre-run",
+    "nta_threshold": 0.8,
+    "bootstrap_seed": 20260722,
+    "xcomet_model": "Unbabel/XCOMET-XL",
+    "cometkiwi_model": "Unbabel/wmt22-cometkiwi-da"
+  },
+  "env": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-117-generic-x86_64-with-glibc2.39",
+    "hf_home": "/workspace/hf_cache",
+    "packages": {
+      "torch": "2.10.0",
+      "transformers": "4.57.6",
+      "numpy": "1.26.4",
+      "rapidfuzz": "3.14.5",
+      "comet": "2.2.7",
+      "openai": "2.50.0",
+      "anthropic": "0.120.2",
+      "google-genai": "2.15.0"
+    },
+    "api_keys_present": {
+      "OPENAI_API_KEY": false,
+      "GOOGLE_API_KEY": false,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": false,
+      "DEEPSEEK_API_KEY": true,
+      "HF_TOKEN": true,
+      "HUGGING_FACE_HUB_TOKEN": false
+    },
+    "cuda_device": "NVIDIA A100-SXM4-80GB",
+    "cuda": "12.8"
+  },
+  "model_key": "qwen3-8b",
+  "backend": "chat",
+  "model_id": "Qwen/Qwen3-8B",
+  "prompt_template": "You are a translation expert. Please translate the following sentence into {LANG} and output only the translated result: {src}",
+  "data": {
+    "path": "/workspace/r1-r2/data/contrastive_A.tsv",
+    "bytes": 62995,
+    "sha256": "a3fb91b2820a6c16ecea4e0e99bcd22ed468ee073419984d88edb03ef6f0e9af",
+    "lines": 268,
+    "n_records": 267
+  },
+  "extra": {
+    "arm": "b2s",
+    "prompts_version": "r3b-prompts-v2-20260730",
+    "backend": "local",
+    "detector": {
+      "path": "/workspace/r3_exp_result/detector/det_neoguard_v2_20260730.jsonl",
+      "bytes": 317123,
+      "sha256": "8264a37d97bd275874cda06400713553e26e1c662734d3fc68d4602b6e7a6f35",
+      "lines": 759
+    },
+    "clean_from": {
+      "path": "/workspace/r1-r2/outputs_A_run4/qwen3-8b.jsonl",
+      "bytes": 131300,
+      "sha256": "1f3eac762ca4bc5aeabeab82983849020586220cf8026aab927ae5c416510952",
+      "lines": 267
+    },
+    "rows_with_hints": 208,
+    "empty_hyps": 0
+  }
+}

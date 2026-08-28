@@ -1,0 +1,68 @@
+{
+  "kind": "score",
+  "created": "2026-07-30T08:47:35",
+  "protocol": {
+    "decoding": "greedy (do_sample=False)",
+    "max_new_tokens": 512,
+    "api_temperature": 0.0,
+    "thinking": "disabled (Qwen3 enable_thinking=False)",
+    "prompt": "unified, verbatim per RESEARCH_PLAN §6; frozen pre-run",
+    "nta_threshold": 0.8,
+    "bootstrap_seed": 20260722,
+    "xcomet_model": "Unbabel/XCOMET-XL",
+    "cometkiwi_model": "Unbabel/wmt22-cometkiwi-da"
+  },
+  "env": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-117-generic-x86_64-with-glibc2.39",
+    "hf_home": "/workspace/hf_cache",
+    "packages": {
+      "torch": "2.10.0",
+      "transformers": "4.57.6",
+      "numpy": "1.26.4",
+      "rapidfuzz": "3.14.5",
+      "comet": "2.2.7",
+      "openai": "2.50.0",
+      "anthropic": "0.120.2",
+      "google-genai": "2.15.0"
+    },
+    "api_keys_present": {
+      "OPENAI_API_KEY": false,
+      "GOOGLE_API_KEY": false,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": false,
+      "DEEPSEEK_API_KEY": true,
+      "HF_TOKEN": true,
+      "HUGGING_FACE_HUB_TOKEN": false
+    },
+    "cuda_device": "NVIDIA A100-SXM4-80GB",
+    "cuda": "12.8"
+  },
+  "extra": {
+    "nta_only": false,
+    "nta_threshold": 0.8,
+    "bootstrap_seed": 20260722,
+    "xcomet_model": "Unbabel/XCOMET-XL",
+    "cometkiwi_model": "Unbabel/wmt22-cometkiwi-da",
+    "scored_systems": [
+      "aya-101",
+      "aya-expanse-8b",
+      "deepseek",
+      "gemini",
+      "gemma3-12b",
+      "gemma3-27b",
+      "gemma3-4b",
+      "gemmax2-9b",
+      "google-translate",
+      "gpt-4o",
+      "hunyuan-mt-7b",
+      "nllb-3.3b",
+      "qwen3-0.6b",
+      "qwen3-1.7b",
+      "qwen3-14b",
+      "qwen3-32b",
+      "qwen3-4b",
+      "qwen3-8b"
+    ]
+  }
+}

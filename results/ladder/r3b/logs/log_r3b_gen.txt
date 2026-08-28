@@ -1,0 +1,12 @@
+loaded 267 rows from ../r1-r2/data/contrastive_A.tsv
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.15it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.16it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.16it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.30it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.70it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.44it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[manifest] ../r3_exp_result/r3b/outputs_A/qwen3-8b-b2.manifest.json
+[done] b2: 267 rows in 58s (208 with hints, 0 empty hyps) -> ../r3_exp_result/r3b/outputs_A/qwen3-8b-b2.jsonl
+loaded 492 rows from ../r1-r2/data/contrastive_B.tsv
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/5 [00:00<?, ?it/s]Loading checkpoint shards:  20%|██        | 1/5 [00:00<00:03,  1.21it/s]Loading checkpoint shards:  40%|████      | 2/5 [00:01<00:02,  1.23it/s]Loading checkpoint shards:  60%|██████    | 3/5 [00:02<00:01,  1.24it/s]Loading checkpoint shards:  80%|████████  | 4/5 [00:03<00:00,  1.36it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.80it/s]Loading checkpoint shards: 100%|██████████| 5/5 [00:03<00:00,  1.52it/s]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+[manifest] ../r3_exp_result/r3b/outputs_B/qwen3-8b-b2.manifest.json
+[done] b2: 492 rows in 77s (462 with hints, 0 empty hyps) -> ../r3_exp_result/r3b/outputs_B/qwen3-8b-b2.jsonl

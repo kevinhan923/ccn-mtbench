@@ -1,0 +1,21 @@
+# zh_noisebench deps. See archive/csm_repro/requirements.txt for the torch/CUDA rationale.
+# Diffs from the reproduction:
+#   - sentence-transformers DROPPED (ES / StyleDistance metric removed, RESEARCH_PLAN §6)
+#   - numpy pinned <2 (unbabel-comet requires it; lib_analysis is numpy 1.x/2.x compatible)
+#   - setuptools<81 pinned (torchmetrics still imports pkg_resources; >=81 removed it -> scoring crash)
+#   - anthropic / google-genai ADDED (frontier backends in lib_models: claude / gemini)
+setuptools<81
+pillow          # gemma3 backend: gemma-3-*-it are multimodal, AutoProcessor's image processor imports PIL even for text-only use (measured Run 4 2026-07-30)
+torch>=2.4,<2.11
+transformers>=4.56
+accelerate>=1.0
+sentencepiece
+protobuf
+numpy<2
+rapidfuzz>=3.0
+unbabel-comet>=2.2
+huggingface_hub>=0.34
+openai>=1.40
+anthropic>=0.40
+google-genai>=1.0
+requests>=2.28
