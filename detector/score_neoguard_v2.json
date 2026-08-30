@@ -1,0 +1,1349 @@
+{
+  "detector": "neoguard_v2_landed",
+  "predictions_file": "reports/neoguard/test_pred_frozen.jsonl",
+  "n_sentences": 759,
+  "n_gold_spans": 782,
+  "span_level": {
+    "overall": {
+      "gold_spans": 782,
+      "predicted_spans": 819,
+      "spans_per_sentence": 1.079,
+      "span_recall": 0.7762,
+      "span_recall_typed": 0.6138,
+      "span_recall_exact": 0.5448,
+      "span_recall_exact_typed": 0.4591,
+      "span_recall_iou50": 0.7008,
+      "span_recall_iou50_typed": 0.5627,
+      "span_precision": 0.7961,
+      "span_precision_typed": 0.6288,
+      "span_precision_exact": 0.5201,
+      "span_precision_exact_typed": 0.4383,
+      "span_f1": 0.786,
+      "span_f1_typed": 0.6212,
+      "span_f1_exact": 0.5322,
+      "span_f1_exact_typed": 0.4485,
+      "span_f2": 0.7801,
+      "sentences": 759,
+      "gate_fire_rate": 0.8827,
+      "macro_span_recall": 0.828,
+      "macro_span_f1": 0.819
+    },
+    "per_class": {
+      "HOM": {
+        "gold_spans": 142,
+        "predicted_spans": 139,
+        "spans_per_sentence": 0.993,
+        "span_recall": 0.8028,
+        "span_recall_typed": 0.5282,
+        "span_recall_exact": 0.5,
+        "span_recall_exact_typed": 0.3592,
+        "span_recall_iou50": 0.7324,
+        "span_recall_iou50_typed": 0.4859,
+        "span_precision": 0.8345,
+        "span_precision_typed": 0.5468,
+        "span_precision_exact": 0.5108,
+        "span_precision_exact_typed": 0.3669,
+        "span_f1": 0.8184,
+        "span_f1_typed": 0.5373,
+        "span_f1_exact": 0.5053,
+        "span_f1_exact_typed": 0.363,
+        "span_f2": 0.809,
+        "sentences": 140,
+        "gate_fire_rate": 0.8714
+      },
+      "PYA": {
+        "gold_spans": 126,
+        "predicted_spans": 147,
+        "spans_per_sentence": 1.195,
+        "span_recall": 0.9683,
+        "span_recall_typed": 0.8095,
+        "span_recall_exact": 0.881,
+        "span_recall_exact_typed": 0.7857,
+        "span_recall_iou50": 0.9524,
+        "span_recall_iou50_typed": 0.8095,
+        "span_precision": 0.8776,
+        "span_precision_typed": 0.7007,
+        "span_precision_exact": 0.7551,
+        "span_precision_exact_typed": 0.6735,
+        "span_f1": 0.9207,
+        "span_f1_typed": 0.7512,
+        "span_f1_exact": 0.8132,
+        "span_f1_exact_typed": 0.7253,
+        "span_f2": 0.9486,
+        "sentences": 123,
+        "gate_fire_rate": 0.9756
+      },
+      "NEO": {
+        "gold_spans": 322,
+        "predicted_spans": 285,
+        "spans_per_sentence": 0.925,
+        "span_recall": 0.5776,
+        "span_recall_typed": 0.4255,
+        "span_recall_exact": 0.2981,
+        "span_recall_exact_typed": 0.2298,
+        "span_recall_iou50": 0.472,
+        "span_recall_iou50_typed": 0.3571,
+        "span_precision": 0.6632,
+        "span_precision_typed": 0.4912,
+        "span_precision_exact": 0.3368,
+        "span_precision_exact_typed": 0.2596,
+        "span_f1": 0.6175,
+        "span_f1_typed": 0.456,
+        "span_f1_exact": 0.3163,
+        "span_f1_exact_typed": 0.2438,
+        "span_f2": 0.5929,
+        "sentences": 308,
+        "gate_fire_rate": 0.7922
+      },
+      "MIX": {
+        "gold_spans": 192,
+        "predicted_spans": 248,
+        "spans_per_sentence": 1.319,
+        "span_recall": 0.9635,
+        "span_recall_typed": 0.8646,
+        "span_recall_exact": 0.7708,
+        "span_recall_exact_typed": 0.7031,
+        "span_recall_iou50": 0.8958,
+        "span_recall_iou50_typed": 0.8021,
+        "span_precision": 0.879,
+        "span_precision_typed": 0.7903,
+        "span_precision_exact": 0.5968,
+        "span_precision_exact_typed": 0.5444,
+        "span_f1": 0.9193,
+        "span_f1_typed": 0.8258,
+        "span_f1_exact": 0.6727,
+        "span_f1_exact_typed": 0.6136,
+        "span_f2": 0.9454,
+        "sentences": 188,
+        "gate_fire_rate": 0.9787
+      }
+    },
+    "per_table": {
+      "A": {
+        "gold_spans": 279,
+        "predicted_spans": 274,
+        "spans_per_sentence": 1.026,
+        "span_recall": 0.5412,
+        "span_recall_typed": 0.3943,
+        "span_recall_exact": 0.2688,
+        "span_recall_exact_typed": 0.2115,
+        "span_recall_iou50": 0.4122,
+        "span_recall_iou50_typed": 0.3047,
+        "span_precision": 0.6095,
+        "span_precision_typed": 0.4489,
+        "span_precision_exact": 0.2737,
+        "span_precision_exact_typed": 0.2153,
+        "span_f1": 0.5733,
+        "span_f1_typed": 0.4198,
+        "span_f1_exact": 0.2712,
+        "span_f1_exact_typed": 0.2134,
+        "span_f2": 0.5536,
+        "sentences": 267,
+        "gate_fire_rate": 0.779
+      },
+      "B": {
+        "gold_spans": 503,
+        "predicted_spans": 545,
+        "spans_per_sentence": 1.108,
+        "span_recall": 0.9066,
+        "span_recall_typed": 0.7356,
+        "span_recall_exact": 0.6978,
+        "span_recall_exact_typed": 0.5964,
+        "span_recall_iou50": 0.8608,
+        "span_recall_iou50_typed": 0.7058,
+        "span_precision": 0.8899,
+        "span_precision_typed": 0.7193,
+        "span_precision_exact": 0.644,
+        "span_precision_exact_typed": 0.5505,
+        "span_f1": 0.8982,
+        "span_f1_typed": 0.7273,
+        "span_f1_exact": 0.6698,
+        "span_f1_exact_typed": 0.5725,
+        "span_f2": 0.9032,
+        "sentences": 492,
+        "gate_fire_rate": 0.939
+      }
+    }
+  },
+  "sentence_level": {
+    "accuracy": 0.6509,
+    "macro_f1": 0.6962,
+    "per_class": {
+      "HOM": {
+        "precision": 0.5379,
+        "recall": 0.5571,
+        "f1": 0.5474,
+        "support": 140
+      },
+      "PYA": {
+        "precision": 0.8083,
+        "recall": 0.7886,
+        "f1": 0.7984,
+        "support": 123
+      },
+      "NEO": {
+        "precision": 0.801,
+        "recall": 0.5097,
+        "f1": 0.623,
+        "support": 308
+      },
+      "MIX": {
+        "precision": 0.7751,
+        "recall": 0.8617,
+        "f1": 0.8161,
+        "support": 188
+      }
+    },
+    "confusion_matrix_label_order": [
+      "HOM",
+      "PYA",
+      "NEO",
+      "MIX",
+      "NONE"
+    ],
+    "confusion_matrix": [
+      [
+        78,
+        1,
+        36,
+        7,
+        18
+      ],
+      [
+        4,
+        97,
+        0,
+        19,
+        3
+      ],
+      [
+        59,
+        7,
+        157,
+        21,
+        64
+      ],
+      [
+        4,
+        15,
+        3,
+        162,
+        4
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "abstained": 89,
+    "derivation": "highest_joint_confidence_span",
+    "independent_sentence_classifier": false
+  },
+  "sentence_level_baselines": {
+    "majority_class_accuracy": 0.4058,
+    "prior_weighted_accuracy": 0.2863
+  },
+  "random_span_control": {
+    "HOM": {
+      "chance_span_recall": 0.3835,
+      "chance_span_recall_iou50": 0.1707,
+      "chance_span_recall_exact": 0.0326,
+      "rounds": 200
+    },
+    "NEO": {
+      "chance_span_recall": 0.346,
+      "chance_span_recall_iou50": 0.1568,
+      "chance_span_recall_exact": 0.0313,
+      "rounds": 200
+    },
+    "PYA": {
+      "chance_span_recall": 0.4403,
+      "chance_span_recall_iou50": 0.2012,
+      "chance_span_recall_exact": 0.0301,
+      "rounds": 200
+    },
+    "MIX": {
+      "chance_span_recall": 0.5095,
+      "chance_span_recall_iou50": 0.1894,
+      "chance_span_recall_exact": 0.0213,
+      "rounds": 200
+    }
+  },
+  "span_recall_ci95": {
+    "HOM": {
+      "mean": 0.8021,
+      "ci95_low": 0.7324,
+      "ci95_high": 0.8652
+    },
+    "PYA": {
+      "mean": 0.9682,
+      "ci95_low": 0.936,
+      "ci95_high": 0.9922
+    },
+    "NEO": {
+      "mean": 0.5787,
+      "ci95_low": 0.5248,
+      "ci95_high": 0.6344
+    },
+    "MIX": {
+      "mean": 0.9639,
+      "ci95_low": 0.9323,
+      "ci95_high": 0.9896
+    }
+  },
+  "misses": [
+    {
+      "uid": "A-HOM-005",
+      "table": "A",
+      "category": "HOM",
+      "gold": "➗"
+    },
+    {
+      "uid": "A-HOM-006",
+      "table": "A",
+      "category": "HOM",
+      "gold": "马牙"
+    },
+    {
+      "uid": "A-HOM-006",
+      "table": "A",
+      "category": "HOM",
+      "gold": "劳斯"
+    },
+    {
+      "uid": "A-HOM-008",
+      "table": "A",
+      "category": "HOM",
+      "gold": "哈雷哈雷"
+    },
+    {
+      "uid": "A-HOM-009",
+      "table": "A",
+      "category": "HOM",
+      "gold": "国际大厦比"
+    },
+    {
+      "uid": "A-HOM-013",
+      "table": "A",
+      "category": "HOM",
+      "gold": "劳斯"
+    },
+    {
+      "uid": "A-HOM-014",
+      "table": "A",
+      "category": "HOM",
+      "gold": "大鸡毛"
+    },
+    {
+      "uid": "A-HOM-015",
+      "table": "A",
+      "category": "HOM",
+      "gold": "刀"
+    },
+    {
+      "uid": "A-PYA-012",
+      "table": "A",
+      "category": "PYA",
+      "gold": "P的"
+    },
+    {
+      "uid": "A-NEO-002",
+      "table": "A",
+      "category": "NEO",
+      "gold": "6666"
+    },
+    {
+      "uid": "A-NEO-004",
+      "table": "A",
+      "category": "NEO",
+      "gold": "中中中"
+    },
+    {
+      "uid": "A-NEO-007",
+      "table": "A",
+      "category": "NEO",
+      "gold": "巴拉巴拉说的啥"
+    },
+    {
+      "uid": "A-NEO-008",
+      "table": "A",
+      "category": "NEO",
+      "gold": "老广"
+    },
+    {
+      "uid": "A-NEO-009",
+      "table": "A",
+      "category": "NEO",
+      "gold": "交"
+    },
+    {
+      "uid": "A-NEO-009",
+      "table": "A",
+      "category": "NEO",
+      "gold": "已关"
+    },
+    {
+      "uid": "A-NEO-010",
+      "table": "A",
+      "category": "NEO",
+      "gold": "给我中中中"
+    },
+    {
+      "uid": "A-NEO-011",
+      "table": "A",
+      "category": "NEO",
+      "gold": "五！老！师！"
+    },
+    {
+      "uid": "A-NEO-012",
+      "table": "A",
+      "category": "NEO",
+      "gold": "价格美丽"
+    },
+    {
+      "uid": "A-NEO-013",
+      "table": "A",
+      "category": "NEO",
+      "gold": "走🐟"
+    },
+    {
+      "uid": "A-NEO-014",
+      "table": "A",
+      "category": "NEO",
+      "gold": "蹲"
+    },
+    {
+      "uid": "A-NEO-016",
+      "table": "A",
+      "category": "NEO",
+      "gold": "下"
+    },
+    {
+      "uid": "A-NEO-016",
+      "table": "A",
+      "category": "NEO",
+      "gold": "池子"
+    },
+    {
+      "uid": "A-NEO-017",
+      "table": "A",
+      "category": "NEO",
+      "gold": "带"
+    },
+    {
+      "uid": "A-NEO-018",
+      "table": "A",
+      "category": "NEO",
+      "gold": "老六"
+    },
+    {
+      "uid": "A-NEO-018",
+      "table": "A",
+      "category": "NEO",
+      "gold": "666"
+    },
+    {
+      "uid": "A-NEO-019",
+      "table": "A",
+      "category": "NEO",
+      "gold": "🐟"
+    },
+    {
+      "uid": "A-NEO-020",
+      "table": "A",
+      "category": "NEO",
+      "gold": "❤️"
+    },
+    {
+      "uid": "A-NEO-020",
+      "table": "A",
+      "category": "NEO",
+      "gold": "🐴扁"
+    },
+    {
+      "uid": "A-NEO-022",
+      "table": "A",
+      "category": "NEO",
+      "gold": "宝宝"
+    },
+    {
+      "uid": "A-NEO-024",
+      "table": "A",
+      "category": "NEO",
+      "gold": "许愿温迪伴生金"
+    },
+    {
+      "uid": "A-NEO-025",
+      "table": "A",
+      "category": "NEO",
+      "gold": "出"
+    },
+    {
+      "uid": "A-NEO-027",
+      "table": "A",
+      "category": "NEO",
+      "gold": "卡皮巴拉土豆豚"
+    },
+    {
+      "uid": "A-NEO-029",
+      "table": "A",
+      "category": "NEO",
+      "gold": "求图"
+    },
+    {
+      "uid": "A-NEO-030",
+      "table": "A",
+      "category": "NEO",
+      "gold": "滴我滴我"
+    },
+    {
+      "uid": "A-NEO-031",
+      "table": "A",
+      "category": "NEO",
+      "gold": "同担"
+    },
+    {
+      "uid": "A-NEO-032",
+      "table": "A",
+      "category": "NEO",
+      "gold": "+1"
+    },
+    {
+      "uid": "A-NEO-034",
+      "table": "A",
+      "category": "NEO",
+      "gold": "➕"
+    },
+    {
+      "uid": "A-NEO-037",
+      "table": "A",
+      "category": "NEO",
+      "gold": "我去"
+    },
+    {
+      "uid": "A-NEO-039",
+      "table": "A",
+      "category": "NEO",
+      "gold": "卷成这样了"
+    },
+    {
+      "uid": "A-NEO-040",
+      "table": "A",
+      "category": "NEO",
+      "gold": "宝"
+    },
+    {
+      "uid": "A-NEO-041",
+      "table": "A",
+      "category": "NEO",
+      "gold": "老师"
+    },
+    {
+      "uid": "A-NEO-041",
+      "table": "A",
+      "category": "NEO",
+      "gold": "要你"
+    },
+    {
+      "uid": "A-NEO-046",
+      "table": "A",
+      "category": "NEO",
+      "gold": "接接接"
+    },
+    {
+      "uid": "A-NEO-048",
+      "table": "A",
+      "category": "NEO",
+      "gold": "蹲蹲"
+    },
+    {
+      "uid": "A-NEO-049",
+      "table": "A",
+      "category": "NEO",
+      "gold": "楼主"
+    },
+    {
+      "uid": "A-NEO-050",
+      "table": "A",
+      "category": "NEO",
+      "gold": "05辽宁的"
+    },
+    {
+      "uid": "A-NEO-051",
+      "table": "A",
+      "category": "NEO",
+      "gold": "🉑️滴滴"
+    },
+    {
+      "uid": "A-NEO-052",
+      "table": "A",
+      "category": "NEO",
+      "gold": "嘤嘤嘤"
+    },
+    {
+      "uid": "A-NEO-056",
+      "table": "A",
+      "category": "NEO",
+      "gold": "②"
+    },
+    {
+      "uid": "A-NEO-056",
+      "table": "A",
+      "category": "NEO",
+      "gold": "私"
+    },
+    {
+      "uid": "A-NEO-057",
+      "table": "A",
+      "category": "NEO",
+      "gold": "🔗"
+    },
+    {
+      "uid": "A-NEO-058",
+      "table": "A",
+      "category": "NEO",
+      "gold": "大三元"
+    },
+    {
+      "uid": "A-NEO-059",
+      "table": "A",
+      "category": "NEO",
+      "gold": "滴滴"
+    },
+    {
+      "uid": "A-NEO-060",
+      "table": "A",
+      "category": "NEO",
+      "gold": "推"
+    },
+    {
+      "uid": "A-NEO-064",
+      "table": "A",
+      "category": "NEO",
+      "gold": "衣"
+    },
+    {
+      "uid": "A-NEO-065",
+      "table": "A",
+      "category": "NEO",
+      "gold": "19配"
+    },
+    {
+      "uid": "A-NEO-065",
+      "table": "A",
+      "category": "NEO",
+      "gold": "35/1"
+    },
+    {
+      "uid": "A-NEO-066",
+      "table": "A",
+      "category": "NEO",
+      "gold": "弟弟"
+    },
+    {
+      "uid": "A-NEO-067",
+      "table": "A",
+      "category": "NEO",
+      "gold": "包"
+    },
+    {
+      "uid": "A-NEO-068",
+      "table": "A",
+      "category": "NEO",
+      "gold": "蹲"
+    },
+    {
+      "uid": "A-NEO-069",
+      "table": "A",
+      "category": "NEO",
+      "gold": "关啦"
+    },
+    {
+      "uid": "A-NEO-070",
+      "table": "A",
+      "category": "NEO",
+      "gold": "蹲一下"
+    },
+    {
+      "uid": "A-NEO-072",
+      "table": "A",
+      "category": "NEO",
+      "gold": "刀子"
+    },
+    {
+      "uid": "A-NEO-074",
+      "table": "A",
+      "category": "NEO",
+      "gold": "冷知识"
+    },
+    {
+      "uid": "A-NEO-078",
+      "table": "A",
+      "category": "NEO",
+      "gold": "脑补"
+    },
+    {
+      "uid": "A-NEO-079",
+      "table": "A",
+      "category": "NEO",
+      "gold": "无语"
+    },
+    {
+      "uid": "A-NEO-082",
+      "table": "A",
+      "category": "NEO",
+      "gold": "天天收藏，从未开始"
+    },
+    {
+      "uid": "A-NEO-085",
+      "table": "A",
+      "category": "NEO",
+      "gold": "违和感"
+    },
+    {
+      "uid": "A-NEO-086",
+      "table": "A",
+      "category": "NEO",
+      "gold": "用左脚踩右脚，再用右脚踩左脚，一直踩到天空"
+    },
+    {
+      "uid": "A-NEO-089",
+      "table": "A",
+      "category": "NEO",
+      "gold": "喝点鸡汤"
+    },
+    {
+      "uid": "A-NEO-096",
+      "table": "A",
+      "category": "NEO",
+      "gold": "女同"
+    },
+    {
+      "uid": "A-NEO-097",
+      "table": "A",
+      "category": "NEO",
+      "gold": "入股不亏"
+    },
+    {
+      "uid": "A-NEO-099",
+      "table": "A",
+      "category": "NEO",
+      "gold": "笑死我了"
+    },
+    {
+      "uid": "A-NEO-109",
+      "table": "A",
+      "category": "NEO",
+      "gold": "起号"
+    },
+    {
+      "uid": "A-NEO-114",
+      "table": "A",
+      "category": "NEO",
+      "gold": "魔都"
+    },
+    {
+      "uid": "A-NEO-115",
+      "table": "A",
+      "category": "NEO",
+      "gold": "甜酷风"
+    },
+    {
+      "uid": "A-NEO-119",
+      "table": "A",
+      "category": "NEO",
+      "gold": "这个神器有点东西"
+    },
+    {
+      "uid": "A-NEO-121",
+      "table": "A",
+      "category": "NEO",
+      "gold": "氛圍感"
+    },
+    {
+      "uid": "A-NEO-122",
+      "table": "A",
+      "category": "NEO",
+      "gold": "杨幂同款"
+    },
+    {
+      "uid": "A-NEO-126",
+      "table": "A",
+      "category": "NEO",
+      "gold": "最适合浪费生命的地方"
+    },
+    {
+      "uid": "A-NEO-127",
+      "table": "A",
+      "category": "NEO",
+      "gold": "打折村"
+    },
+    {
+      "uid": "A-NEO-130",
+      "table": "A",
+      "category": "NEO",
+      "gold": "血脉觉醒"
+    },
+    {
+      "uid": "A-NEO-132",
+      "table": "A",
+      "category": "NEO",
+      "gold": "乍到书法新手村"
+    },
+    {
+      "uid": "A-NEO-133",
+      "table": "A",
+      "category": "NEO",
+      "gold": "今日份晒"
+    },
+    {
+      "uid": "A-NEO-135",
+      "table": "A",
+      "category": "NEO",
+      "gold": "拿下"
+    },
+    {
+      "uid": "A-NEO-136",
+      "table": "A",
+      "category": "NEO",
+      "gold": "显白"
+    },
+    {
+      "uid": "A-NEO-141",
+      "table": "A",
+      "category": "NEO",
+      "gold": "保姆级"
+    },
+    {
+      "uid": "A-NEO-144",
+      "table": "A",
+      "category": "NEO",
+      "gold": "带娃"
+    },
+    {
+      "uid": "A-NEO-148",
+      "table": "A",
+      "category": "NEO",
+      "gold": "周边"
+    },
+    {
+      "uid": "A-NEO-151",
+      "table": "A",
+      "category": "NEO",
+      "gold": "神"
+    },
+    {
+      "uid": "A-NEO-153",
+      "table": "A",
+      "category": "NEO",
+      "gold": "同人图"
+    },
+    {
+      "uid": "A-NEO-156",
+      "table": "A",
+      "category": "NEO",
+      "gold": "太旺了"
+    },
+    {
+      "uid": "A-NEO-161",
+      "table": "A",
+      "category": "NEO",
+      "gold": "眼神杀"
+    },
+    {
+      "uid": "A-NEO-164",
+      "table": "A",
+      "category": "NEO",
+      "gold": "缅北"
+    },
+    {
+      "uid": "A-NEO-166",
+      "table": "A",
+      "category": "NEO",
+      "gold": "晒出"
+    },
+    {
+      "uid": "A-NEO-168",
+      "table": "A",
+      "category": "NEO",
+      "gold": "卷起来了"
+    },
+    {
+      "uid": "A-NEO-171",
+      "table": "A",
+      "category": "NEO",
+      "gold": "大攻略"
+    },
+    {
+      "uid": "A-NEO-173",
+      "table": "A",
+      "category": "NEO",
+      "gold": "景点避坑"
+    },
+    {
+      "uid": "A-NEO-180",
+      "table": "A",
+      "category": "NEO",
+      "gold": "搬运"
+    },
+    {
+      "uid": "A-NEO-181",
+      "table": "A",
+      "category": "NEO",
+      "gold": "是懂华人节日需求的"
+    },
+    {
+      "uid": "A-NEO-183",
+      "table": "A",
+      "category": "NEO",
+      "gold": "火到中国"
+    },
+    {
+      "uid": "A-NEO-184",
+      "table": "A",
+      "category": "NEO",
+      "gold": "自闭"
+    },
+    {
+      "uid": "A-NEO-186",
+      "table": "A",
+      "category": "NEO",
+      "gold": "干货"
+    },
+    {
+      "uid": "A-NEO-187",
+      "table": "A",
+      "category": "NEO",
+      "gold": "晒一晒"
+    },
+    {
+      "uid": "A-NEO-189",
+      "table": "A",
+      "category": "NEO",
+      "gold": "两眼一黑"
+    },
+    {
+      "uid": "A-NEO-191",
+      "table": "A",
+      "category": "NEO",
+      "gold": "探店"
+    },
+    {
+      "uid": "A-NEO-193",
+      "table": "A",
+      "category": "NEO",
+      "gold": "落地杭州"
+    },
+    {
+      "uid": "A-NEO-194",
+      "table": "A",
+      "category": "NEO",
+      "gold": "网红餐厅"
+    },
+    {
+      "uid": "A-NEO-198",
+      "table": "A",
+      "category": "NEO",
+      "gold": "逆天"
+    },
+    {
+      "uid": "A-NEO-201",
+      "table": "A",
+      "category": "NEO",
+      "gold": "谁允许你在海洋馆最经典景观只放一半水的"
+    },
+    {
+      "uid": "A-NEO-203",
+      "table": "A",
+      "category": "NEO",
+      "gold": "仪式感"
+    },
+    {
+      "uid": "A-NEO-204",
+      "table": "A",
+      "category": "NEO",
+      "gold": "消息轰炸"
+    },
+    {
+      "uid": "A-NEO-207",
+      "table": "A",
+      "category": "NEO",
+      "gold": "留子"
+    },
+    {
+      "uid": "A-NEO-209",
+      "table": "A",
+      "category": "NEO",
+      "gold": "千与千寻同款"
+    },
+    {
+      "uid": "A-NEO-210",
+      "table": "A",
+      "category": "NEO",
+      "gold": "全攻略"
+    },
+    {
+      "uid": "A-NEO-212",
+      "table": "A",
+      "category": "NEO",
+      "gold": "番外绘本"
+    },
+    {
+      "uid": "A-NEO-220",
+      "table": "A",
+      "category": "NEO",
+      "gold": "电子榨菜"
+    },
+    {
+      "uid": "A-NEO-225",
+      "table": "A",
+      "category": "NEO",
+      "gold": "江湖见"
+    },
+    {
+      "uid": "A-NEO-234",
+      "table": "A",
+      "category": "NEO",
+      "gold": "一丢丢"
+    },
+    {
+      "uid": "A-NEO-240",
+      "table": "A",
+      "category": "NEO",
+      "gold": "“春运现场”"
+    },
+    {
+      "uid": "A-NEO-241",
+      "table": "A",
+      "category": "NEO",
+      "gold": "网图"
+    },
+    {
+      "uid": "A-NEO-242",
+      "table": "A",
+      "category": "NEO",
+      "gold": "直录"
+    },
+    {
+      "uid": "A-NEO-249",
+      "table": "A",
+      "category": "NEO",
+      "gold": "怒排"
+    },
+    {
+      "uid": "A-NEO-251",
+      "table": "A",
+      "category": "NEO",
+      "gold": "站姐"
+    },
+    {
+      "uid": "A-NEO-252",
+      "table": "A",
+      "category": "NEO",
+      "gold": "偷跑"
+    },
+    {
+      "uid": "A-MIX-001",
+      "table": "A",
+      "category": "MIX",
+      "gold": "K宝"
+    },
+    {
+      "uid": "A-MIX-042",
+      "table": "A",
+      "category": "MIX",
+      "gold": "i人"
+    },
+    {
+      "uid": "A-MIX-047",
+      "table": "A",
+      "category": "MIX",
+      "gold": "I人"
+    },
+    {
+      "uid": "B-HOM-008",
+      "table": "B",
+      "category": "HOM",
+      "gold": "杯具"
+    },
+    {
+      "uid": "B-HOM-016",
+      "table": "B",
+      "category": "NEO",
+      "gold": "寄"
+    },
+    {
+      "uid": "B-HOM-040",
+      "table": "B",
+      "category": "HOM",
+      "gold": "有内味了"
+    },
+    {
+      "uid": "B-HOM-053",
+      "table": "B",
+      "category": "HOM",
+      "gold": "好康"
+    },
+    {
+      "uid": "B-HOM-058",
+      "table": "B",
+      "category": "HOM",
+      "gold": "笑抽"
+    },
+    {
+      "uid": "B-HOM-059",
+      "table": "B",
+      "category": "HOM",
+      "gold": "好7"
+    },
+    {
+      "uid": "B-HOM-066",
+      "table": "B",
+      "category": "HOM",
+      "gold": "沙子"
+    },
+    {
+      "uid": "B-HOM-068",
+      "table": "B",
+      "category": "HOM",
+      "gold": "鸟"
+    },
+    {
+      "uid": "B-HOM-071",
+      "table": "B",
+      "category": "HOM",
+      "gold": "雨女无瓜"
+    },
+    {
+      "uid": "B-HOM-075",
+      "table": "B",
+      "category": "HOM",
+      "gold": "给"
+    },
+    {
+      "uid": "B-HOM-082",
+      "table": "B",
+      "category": "HOM",
+      "gold": "粽横天虾"
+    },
+    {
+      "uid": "B-HOM-090",
+      "table": "B",
+      "category": "HOM",
+      "gold": "香精煎鱼食不食"
+    },
+    {
+      "uid": "B-NEO-015",
+      "table": "B",
+      "category": "NEO",
+      "gold": "等等党"
+    },
+    {
+      "uid": "B-NEO-020",
+      "table": "B",
+      "category": "NEO",
+      "gold": "润了"
+    },
+    {
+      "uid": "B-NEO-034",
+      "table": "B",
+      "category": "NEO",
+      "gold": "梅老板"
+    },
+    {
+      "uid": "B-NEO-036",
+      "table": "B",
+      "category": "NEO",
+      "gold": "凡尔赛"
+    },
+    {
+      "uid": "B-NEO-061",
+      "table": "B",
+      "category": "NEO",
+      "gold": "营业"
+    },
+    {
+      "uid": "B-NEO-065",
+      "table": "B",
+      "category": "NEO",
+      "gold": "糖"
+    },
+    {
+      "uid": "B-NEO-066",
+      "table": "B",
+      "category": "NEO",
+      "gold": "何意味"
+    },
+    {
+      "uid": "B-PYA-030",
+      "table": "B",
+      "category": "PYA",
+      "gold": "b站"
+    },
+    {
+      "uid": "B-PYA-035",
+      "table": "B",
+      "category": "PYA",
+      "gold": "00"
+    },
+    {
+      "uid": "B-PYA-085",
+      "table": "B",
+      "category": "PYA",
+      "gold": "Q弹"
+    },
+    {
+      "uid": "B-MIX-012",
+      "table": "B",
+      "category": "MIX",
+      "gold": "i人"
+    },
+    {
+      "uid": "B-MIX-012",
+      "table": "B",
+      "category": "MIX",
+      "gold": "e人"
+    },
+    {
+      "uid": "B-HOM-096",
+      "table": "B",
+      "category": "HOM",
+      "gold": "麻麻"
+    },
+    {
+      "uid": "B-HOM-098",
+      "table": "B",
+      "category": "HOM",
+      "gold": "淦"
+    },
+    {
+      "uid": "B-NEO-088",
+      "table": "B",
+      "category": "NEO",
+      "gold": "作业"
+    },
+    {
+      "uid": "B-NEO-090",
+      "table": "B",
+      "category": "NEO",
+      "gold": "国粹"
+    },
+    {
+      "uid": "B-NEO-092",
+      "table": "B",
+      "category": "NEO",
+      "gold": "凉了"
+    },
+    {
+      "uid": "B-NEO-093",
+      "table": "B",
+      "category": "NEO",
+      "gold": "成分"
+    },
+    {
+      "uid": "B-HOM-101",
+      "table": "B",
+      "category": "HOM",
+      "gold": "恰"
+    },
+    {
+      "uid": "B-HOM-104",
+      "table": "B",
+      "category": "HOM",
+      "gold": "麻麻"
+    },
+    {
+      "uid": "B-HOM-106",
+      "table": "B",
+      "category": "NEO",
+      "gold": "萝卜"
+    },
+    {
+      "uid": "B-HOM-107",
+      "table": "B",
+      "category": "HOM",
+      "gold": "淦"
+    },
+    {
+      "uid": "B-HOM-108",
+      "table": "B",
+      "category": "HOM",
+      "gold": "无瓜"
+    },
+    {
+      "uid": "B-HOM-111",
+      "table": "B",
+      "category": "HOM",
+      "gold": "还怨"
+    },
+    {
+      "uid": "B-HOM-125",
+      "table": "B",
+      "category": "HOM",
+      "gold": "内个"
+    },
+    {
+      "uid": "B-NEO-097",
+      "table": "B",
+      "category": "NEO",
+      "gold": "泪目"
+    },
+    {
+      "uid": "B-NEO-099",
+      "table": "B",
+      "category": "NEO",
+      "gold": "含金量还在上升"
+    },
+    {
+      "uid": "B-NEO-100",
+      "table": "B",
+      "category": "NEO",
+      "gold": "含金量还在上升"
+    },
+    {
+      "uid": "B-NEO-104",
+      "table": "B",
+      "category": "NEO",
+      "gold": "梦幻联动"
+    },
+    {
+      "uid": "B-MIX-121",
+      "table": "B",
+      "category": "MIX",
+      "gold": "b站"
+    },
+    {
+      "uid": "B-MIX-138",
+      "table": "B",
+      "category": "MIX",
+      "gold": "c"
+    },
+    {
+      "uid": "B-HOM-134",
+      "table": "B",
+      "category": "HOM",
+      "gold": "向左"
+    },
+    {
+      "uid": "B-NEO-110",
+      "table": "B",
+      "category": "NEO",
+      "gold": "泪目了"
+    },
+    {
+      "uid": "B-NEO-111",
+      "table": "B",
+      "category": "NEO",
+      "gold": "双非"
+    },
+    {
+      "uid": "B-NEO-113",
+      "table": "B",
+      "category": "NEO",
+      "gold": "补丁"
+    }
+  ]
+}

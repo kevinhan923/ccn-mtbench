@@ -1,0 +1,8 @@
+uid	table	category	src_noisy	src_clean	ref_en	noise_span	noise_gold_en	noise_std	source_meta
+F-HOM-001	A	HOM	蚌埠住了，笑死我了	绷不住了，笑死我了	Can't hold it together, dying of laughter	蚌埠住了	can't hold it together‖lost it	绷不住了	test
+F-HOM-002	B	HOM	蟹蟹bb的夸奖	谢谢bb的夸奖	Thanks babe for the compliment	蟹蟹	thanks‖thank you	谢谢	xhs 2026-07-22
+F-PYA-001	A	PYA	对口白话兄弟yyds	对口白话兄弟永远的神	Cantonese-dialect bros are the absolute GOAT	yyds	the GOAT‖greatest of all time	永远的神	CSM fun_0270
+F-NEO-001	A	NEO	周末加班，真的是牛马命	周末加班，真的是打工人的命	Working overtime on weekends, the life of a corporate drone	牛马	corporate drone‖working stiff‖wage slave	打工人	CSM fun_0515
+F-NEO-002	B	NEO	这本书在国外爆火	这本书在国外很火	This book blew up overseas	爆火	blew up‖went viral	很火	xhs 2026-07-22
+F-MIX-001	B	MIX	街边拍照姿势get韩女氛围	街边拍照姿势掌握韩女氛围	Street photo poses to nail that Korean-girl vibe	get	nail‖master‖pick up	掌握	xhs 2026-07-22
+F-MIX-002	B	MIX	分享一个vlog	分享一个视频日志	Sharing a vlog	vlog		视频日志	xhs 2026-07-22

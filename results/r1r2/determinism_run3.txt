@@ -1,0 +1,6 @@
+rows: 267
+  noisy side differing: 0
+  clean side differing: 0
+
+DETERMINISTIC — two identical runs, byte for byte.
+The R3 switch to a local model is justified by measurement, not assumption.

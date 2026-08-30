@@ -1,0 +1,5 @@
+  A: 267 rows, noisy differing 0, clean differing 0
+  B: 492 rows, noisy differing 0, clean differing 0
+
+ANCHOR IDENTICAL — Run 3 is reproduced byte for byte on this box.
+  => R3's A0/A4 anchor stays valid; r3_exp_result/ conclusions unaffected.
