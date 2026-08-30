@@ -3,7 +3,7 @@
 Fork of csm_repro for our own contrastive test set. Also holds the language
 tables that the copied lib_models.py imports (adds English as a target).
 
-TSV schema (see data/FORMAT_SPEC.md), 10 columns:
+TSV schema (documented in the repository README), 10 columns:
     uid, table, category, src_noisy, src_clean, ref_en,
     noise_span, noise_gold_en, noise_std, source_meta
 Multi-value cells (noise_span, noise_gold_en) use '‖' as separator.

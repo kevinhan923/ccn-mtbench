@@ -23,11 +23,21 @@ so the paired score difference isolates the noise rather than the sentence.
 | `pipeline/semantic_audit/` | Frozen-protocol semantic audit of the detector training pool (seed-fixed 100-item sample, per-item verdicts) |
 | `r1-r2/`, `r3/` | Evaluation and ladder code |
 
-759 pairs total, categorized as **HOM** homophone respelling (140),
-**PYA** pinyin initialism (123), **NEO** internet neologism (308),
-**MIX** embedded Latin/English (188).
+## Benchmark
 
-## Benchmark schema
+759 pairs, one noise category each:
+
+| Category | Count | Noise → standard form |
+|---|---|---|
+| `HOM` homophone respelling | 140 | 蚌埠住了→绷不住了, 灰常→非常 |
+| `PYA` pinyin initialism | 123 | yyds→永远的神, xhs→小红书 |
+| `NEO` internet neologism | 308 | 牛马→打工人, 绝绝子→绝了 |
+| `MIX` embedded Latin/English | 188 | get→学会, Citywalk→城市漫步 |
+
+Sentences carrying two different categories were discarded during annotation:
+a sentence's degradation score is computed once for the whole sentence and
+cannot be decomposed, so a two-category sentence would charge its degradation
+to both and make "which category hurts most" unanswerable.
 
 Both tables are TSV with ten columns:
 
@@ -35,12 +45,12 @@ Both tables are TSV with ten columns:
 `noise_span`, `noise_gold_en`, `noise_std`, `source_meta`
 
 `noise_span`, `noise_gold_en` and `noise_std` are multi-valued, separated by
-`‖`. Substituting every annotated occurrence of `noise_span` with `noise_std`
-in `src_noisy` reproduces `src_clean` byte-for-byte for all 759 items (729
-items carry a single span occurring once; 23 carry two spans and 7 carry one
-span that recurs). `ref_en` translates the **noisy** source.
-`r1-r2/data/FORMAT_SPEC.md` is the annotation instrument the tables were built
-with.
+`‖`. Two invariants the data depends on: `ref_en` translates the **noisy**
+source, not the clean one; and `src_clean` differs from `src_noisy` **only**
+at the annotated spans. Substituting every annotated occurrence of
+`noise_span` with `noise_std` in `src_noisy` reproduces `src_clean`
+byte-for-byte for all 759 items (729 items carry a single span occurring once;
+23 carry two spans and 7 carry one span that recurs).
 
 ## Result files
 
@@ -114,10 +124,28 @@ paper carries the same information.
 
 ## License and terms
 
-- Code: Apache-2.0 (`LICENSE`).
-- **Table A** source sentences are drawn from CSM-MTBench and inherit its
-  Apache-2.0 terms, with attribution.
-- **Table B** sentences were collected from public comment sections and
-  de-identified at collection time (@-handles, URLs, phone numbers and
-  personally identifying information removed). Released for non-commercial
-  research use. See `DATA_TERMS.md`, which also carries the takedown route.
+Code is Apache-2.0 (`LICENSE`).
+
+**Table A** source sentences are drawn from CSM-MTBench and inherit its
+Apache-2.0 terms; attribution to CSM-MTBench is required. The annotation layer
+added here — category, span, standard form, gold renderings, clean
+counterpart, English reference — is released under the same terms.
+
+**Table B** sentences were collected from publicly visible comment sections of
+Chinese social-media platforms in July 2026 and are released **for
+non-commercial research use only**. Every retained sentence was de-identified
+at collection time: @-handles, URLs, phone numbers and personally identifying
+information were removed. What is kept is the sentence text, the source
+platform, the collection date, and — for part of the Bilibili rows — the
+identifier of the post the comment appeared under. No user profile or
+interaction data is included. Sentences were selected for the linguistic
+phenomena they contain, never for their authors.
+
+**Takedown.** If you are the author of a comment included here and want it
+removed, open an issue in this repository; the row will be deleted from the
+next release. Requests are honoured without requiring proof of authorship.
+
+Model outputs under `results/` are generated text and carry the terms of the
+systems that produced them; consult each provider's terms before
+redistributing. Per-segment scores are computed with `Unbabel/XCOMET-XL` and
+`Unbabel/wmt22-cometkiwi-da`.
