@@ -134,12 +134,15 @@ counterpart, English reference — is released under the same terms.
 **Table B** sentences were collected from publicly visible comment sections of
 Chinese social-media platforms in July 2026 and are released **for
 non-commercial research use only**. Every retained sentence was de-identified
-at collection time by a pattern pass over the comment text that strips URLs,
-e-mail addresses, @-handles, mobile numbers and long digit strings, and the
-audit re-checks `src_noisy`, `src_clean` and `ref_en` against the same
-patterns.
+at collection time by the annotator, who removed @-handles, URLs, phone
+numbers and identifying detail by hand. The sheet-to-TSV converter then
+re-checks `src_noisy`, `src_clean` and `ref_en` against @-handle, URL and
+phone-number patterns and writes any hit to a review file rather than
+substituting it away; it found none. (The automatic pattern pass in the
+pipeline scripts belongs to the detector's training corpus, a separate
+collection drawn from public dumps, and never runs over these tables.)
 
-That pass does not cover `source_meta`, which is annotator-entered free text
+That check does not cover `source_meta`, which is annotator-entered free text
 and is not schema-checked. The annotation guide asks for the platform and the
 collection date, which is what 322 of the 492 rows carry; 170 also carry the
 identifier of the Bilibili video the comment was posted under, 157 a
