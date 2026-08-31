@@ -134,15 +134,20 @@ counterpart, English reference — is released under the same terms.
 **Table B** sentences were collected from publicly visible comment sections of
 Chinese social-media platforms in July 2026 and are released **for
 non-commercial research use only**. Every retained sentence was de-identified
-at collection time: @-handles, URLs, phone numbers and personally identifying
-information were removed. What is kept alongside the sentence text is the
-source platform, the collection date, and for part of the Bilibili rows the
-surface a comment appeared on: a bullet-screen or comment marker, the
-identifier of the video it was posted under, and in eleven cases a channel
-name. That provenance is thread-level rather than person-level — no profile,
-follower, or interaction-history data is included — but it does leave a quoted
-comment findable in its original thread. Sentences were selected for the
-linguistic phenomena they contain, never for their authors.
+at collection time by a pattern pass over the comment text that strips URLs,
+e-mail addresses, @-handles, mobile numbers and long digit strings, and the
+audit re-checks `src_noisy`, `src_clean` and `ref_en` against the same
+patterns.
+
+That pass does not cover `source_meta`, which is annotator-entered free text
+and is not schema-checked. The annotation guide asks for the platform and the
+collection date, which is what 322 of the 492 rows carry; 170 also carry the
+identifier of the Bilibili video the comment was posted under, 157 a
+bullet-screen or comment marker, and 11 a channel name. That provenance is
+thread-level rather than person-level — no profile, follower, or
+interaction-history data is included — but it does leave a quoted comment
+findable in its original thread. Sentences were selected for the linguistic
+phenomena they contain, never for their authors.
 
 **Takedown.** If you are the author of a comment included here and want it
 removed, open an issue in this repository; the row will be deleted from the
