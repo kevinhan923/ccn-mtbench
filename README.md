@@ -135,11 +135,14 @@ counterpart, English reference — is released under the same terms.
 Chinese social-media platforms in July 2026 and are released **for
 non-commercial research use only**. Every retained sentence was de-identified
 at collection time: @-handles, URLs, phone numbers and personally identifying
-information were removed. What is kept is the sentence text, the source
-platform, the collection date, and — for part of the Bilibili rows — the
-identifier of the post the comment appeared under. No user profile or
-interaction data is included. Sentences were selected for the linguistic
-phenomena they contain, never for their authors.
+information were removed. What is kept alongside the sentence text is the
+source platform, the collection date, and for part of the Bilibili rows the
+surface a comment appeared on: a bullet-screen or comment marker, the
+identifier of the video it was posted under, and in eleven cases a channel
+name. That provenance is thread-level rather than person-level — no profile,
+follower, or interaction-history data is included — but it does leave a quoted
+comment findable in its original thread. Sentences were selected for the
+linguistic phenomena they contain, never for their authors.
 
 **Takedown.** If you are the author of a comment included here and want it
 removed, open an issue in this repository; the row will be deleted from the
