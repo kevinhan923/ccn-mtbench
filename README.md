@@ -13,8 +13,8 @@ so the paired score difference isolates the noise rather than the sentence.
 
 | Path | What it is |
 |---|---|
-| `r1-r2/data/contrastive_A.tsv` | **Table A** (controlled), 267 pairs re-annotated from CSM-MTBench |
-| `r1-r2/data/contrastive_B.tsv` | **Table B** (real), 492 newly collected pairs |
+| `r1-r2/data/contrastive_A.tsv` | **Set A** (controlled), 267 pairs re-annotated from CSM-MTBench |
+| `r1-r2/data/contrastive_B.tsv` | **Set B** (real), 492 newly collected pairs |
 | `results/r1r2/tableA/`, `tableB/` | Per-segment results for all **18 systems**, both sides of every pair |
 | `results/ladder/r3b/` | The four-arm repair ladder (Tier 0–3), outputs and scores |
 | `results/ladder/two_stage/` | The five-arm normalize-then-translate ladder on Qwen3-32B (a0–a4): normalized sources, scores, contrast tables, restoration evaluation |
@@ -42,7 +42,7 @@ a sentence's degradation score is computed once for the whole sentence and
 cannot be decomposed, so a two-category sentence would charge its degradation
 to both and make "which category hurts most" unanswerable.
 
-Both tables are TSV with ten columns:
+Both sets are TSV files with ten columns (the `table` column holds `A` or `B`, i.e. Set A or Set B):
 
 `uid`, `table`, `category`, `src_noisy`, `src_clean`, `ref_en`,
 `noise_span`, `noise_gold_en`, `noise_std`, `source_meta`
@@ -166,12 +166,12 @@ paper carries the same information.
 
 Code is Apache-2.0 (`LICENSE`).
 
-**Table A** source sentences are drawn from CSM-MTBench and inherit its
+**Set A** source sentences are drawn from CSM-MTBench and inherit its
 Apache-2.0 terms; attribution to CSM-MTBench is required. The annotation layer
 added here — category, span, standard form, gold renderings, clean
 counterpart, English reference — is released under the same terms.
 
-**Table B** sentences were collected from publicly visible comment sections of
+**Set B** sentences were collected from publicly visible comment sections of
 Chinese social-media platforms in July 2026 and are released **for
 non-commercial research use only**. Every retained sentence was de-identified
 at collection time by the annotator, who removed @-handles, URLs, phone
