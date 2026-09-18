@@ -1,0 +1,70 @@
+{
+  "pool": "merged_pool.jsonl",
+  "pool_rows": 11009,
+  "benchmark_rows": 759,
+  "sentence_level": {
+    "rule": "whole-sentence match at three strictness levels: exact string; NFKC; NFKC + drop all non-word/non-Han characters + lowercase (merge_pools.match_key)",
+    "hits": {
+      "bench_src_noisy~pool_noisy~exact": 0,
+      "bench_src_noisy~pool_noisy~nfkc": 0,
+      "bench_src_noisy~pool_noisy~loose": 0,
+      "bench_src_noisy~pool_clean~exact": 0,
+      "bench_src_noisy~pool_clean~nfkc": 0,
+      "bench_src_noisy~pool_clean~loose": 0,
+      "bench_src_clean~pool_noisy~exact": 0,
+      "bench_src_clean~pool_noisy~nfkc": 0,
+      "bench_src_clean~pool_noisy~loose": 0,
+      "bench_src_clean~pool_clean~exact": 0,
+      "bench_src_clean~pool_clean~nfkc": 0,
+      "bench_src_clean~pool_clean~loose": 0
+    },
+    "near_duplicates": {
+      "rule": "char 4-gram Jaccard >= 0.6 on match_key(src_noisy)",
+      "count": 0,
+      "pairs": []
+    }
+  },
+  "span_vocabulary": {
+    "rule": "NFKC-normalised span strings; multi-span rows split on the double bar",
+    "pool_distinct_spans": 6045,
+    "pool_distinct_spans_also_in_benchmark": 177,
+    "pool_side_fraction": 0.0293,
+    "benchmark_gold_spans": 782,
+    "benchmark_gold_spans_seen_in_pool": 275,
+    "benchmark_side_fraction": 0.3517,
+    "by_table": {
+      "A": {
+        "gold": 279,
+        "seen": 35,
+        "fraction": 0.1254
+      },
+      "B": {
+        "gold": 503,
+        "seen": 240,
+        "fraction": 0.4771
+      }
+    },
+    "by_category": {
+      "HOM": {
+        "gold": 142,
+        "seen": 44,
+        "fraction": 0.3099
+      },
+      "MIX": {
+        "gold": 192,
+        "seen": 89,
+        "fraction": 0.4635
+      },
+      "NEO": {
+        "gold": 322,
+        "seen": 68,
+        "fraction": 0.2112
+      },
+      "PYA": {
+        "gold": 126,
+        "seen": 74,
+        "fraction": 0.5873
+      }
+    }
+  }
+}

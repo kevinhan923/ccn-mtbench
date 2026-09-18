@@ -1,0 +1,9 @@
+{
+  "a0_segments": "../r1-r2/results_A/segments_qwen3-32b.tsv",
+  "tiers": {
+    "a1": "../r3_exp_result/scores_qwen32b/A/a1/segments_qwen3-32b.tsv",
+    "a2": "../r3_exp_result/scores_qwen32b_ng2/A/a2/segments_qwen3-32b.tsv",
+    "a3": "../r3_exp_result/scores_qwen32b/A/a3/segments_qwen3-32b.tsv"
+  },
+  "n_shared_uids": 267
+}

@@ -1,0 +1,5 @@
+pair	scope	metric	n	mean_hi	mean_lo	diff	ci_lo	ci_hi	p_boot
+a2-a0	all	kiwi	267	69.42	67.00	2.42	1.35	3.50	0.0000
+a2-a1	all	kiwi	267	69.42	69.68	-0.26	-1.39	0.90	0.6660
+a3-a2	all	kiwi	267	72.10	69.42	2.68	1.55	3.85	0.0000
+a4-a3	all	kiwi	267	74.63	72.10	2.53	1.56	3.54	0.0000

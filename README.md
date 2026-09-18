@@ -17,6 +17,9 @@ so the paired score difference isolates the noise rather than the sentence.
 | `r1-r2/data/contrastive_B.tsv` | **Table B** (real), 492 newly collected pairs |
 | `results/r1r2/tableA/`, `tableB/` | Per-segment results for all **18 systems**, both sides of every pair |
 | `results/ladder/r3b/` | The four-arm repair ladder (Tier 0–3), outputs and scores |
+| `results/ladder/two_stage/` | The five-arm normalize-then-translate ladder on Qwen3-32B (a0–a4): normalized sources, scores, contrast tables, restoration evaluation |
+| `detector/score_neoguard_v2_by_seen.json` | Detector recall split by whether the gold span's string occurs in the training pool, with per-stratum chance floors |
+| `pipeline/overlap_report.json` | Sentence-level and span-vocabulary overlap between the training pool and the benchmark |
 | `detector/det_neoguard_v2_20260730.jsonl` | Deployed span output of the noise detector: 759 sentences, 819 spans |
 | `detector/score_neoguard_v2.json` | Its scores, including the per-category random-span chance floors |
 | `detector/evalkit/` | The scorer that produced them |
@@ -71,6 +74,23 @@ reuses Tier 0's clean side byte-for-byte, so arms carry noisy-side scores only.
 `results/r1r2/determinism_*.txt` are the recorded results of the two
 byte-determinism measurements the paper reports.
 
+`results/ladder/two_stage/` holds the two-stage ladder on Qwen3-32B, in which
+the source is normalized first and then translated: `a1` (the model locates
+and normalizes noise by itself), `a2` (the detector's spans are handed to the
+model, which normalizes them), and `a3` (gold span and category are handed to
+the model, which still generates the standard form). `a0` and `a4` are the
+noisy and clean sides of the system's own benchmark row in
+`results/r1r2/table{A,B}/segments_qwen3-32b.tsv`. `tables/{A,B}/` carry the
+arm means and paired contrasts on XCOMET; `tables/{A,B}/extra_metrics/` the
+same contrasts on CometKiwi and NTA, computed afterwards from the same
+per-item scores with the same estimator. `detector_eval/{A,B}/` scores the
+normalizer's standard forms against the annotated ones.
+
+`results/ladder/r3b/logs_r3b2/r3b2_strata_20260913.{txt,tsv}` split the
+single-stage ladder's Tier 3 − Tier 2 contrast by what the detector did on
+each item; `results/r1r2/table{A,B}/sensitivity_nboot2000/` re-run the
+category regression with 2,000 resamples instead of the reported 1,000.
+
 ## Verifying this release
 
 These run offline, with no model weights, API keys, or extra packages beyond
@@ -83,7 +103,27 @@ python3 detector/evalkit/score.py --pred detector/det_neoguard_v2_20260730.jsonl
 ```
 
 The last command rescores the shipped span file from the benchmark tables and
-reproduces `detector/score_neoguard_v2.json`. `r1-r2/selftest.py`,
+reproduces `detector/score_neoguard_v2.json`. Three further scripts reproduce
+the derived tables from shipped files:
+
+```bash
+cd r3
+python3 make_tables_r3_metrics.py --a0-segments ../results/r1r2/tableA/segments_qwen3-32b.tsv \
+    --tier a1=../results/ladder/two_stage/scores/A/a1/segments_qwen3-32b.tsv \
+    --tier a2=../results/ladder/two_stage/scores/A/a2/segments_qwen3-32b.tsv \
+    --tier a3=../results/ladder/two_stage/scores/A/a3/segments_qwen3-32b.tsv \
+    --resdir ../results/ladder/two_stage/tables/A        # same for B
+python3 stratify_r3b2.py --det ../detector/det_neoguard_v2_20260730.jsonl \
+    --resdir ../results/ladder/r3b --out /tmp/strata.txt
+cd ../r1-r2 && python3 run_analysis.py --resdir-a ../results/r1r2/tableA --outdir /tmp/sens --n-boot 2000
+```
+
+The first asserts that its XCOMET rows are identical to the frozen
+`comparisons.tsv` before writing the CometKiwi and NTA files.
+`detector/evalkit/score_by_seen.py` and `pipeline/check_overlap.py` produced
+`detector/score_neoguard_v2_by_seen.json` and `pipeline/overlap_report.json`;
+both read the detector training pool, which is not redistributed, so they are
+included as the record of how those files were computed. `r1-r2/selftest.py`,
 `r1-r2/selftest_analysis.py` and `r3/selftest_r3b2.py` check the metric
 implementations, the statistics and the ladder prompt contracts.
 

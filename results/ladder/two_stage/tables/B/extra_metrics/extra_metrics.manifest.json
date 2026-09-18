@@ -1,0 +1,19 @@
+{
+  "a0_segments": "../r1-r2/results_B/segments_qwen3-32b.tsv",
+  "tiers": {
+    "a1": "../r3_exp_result/scores_qwen32b/B/a1/segments_qwen3-32b.tsv",
+    "a2": "../r3_exp_result/scores_qwen32b_ng2/B/a2/segments_qwen3-32b.tsv",
+    "a3": "../r3_exp_result/scores_qwen32b/B/a3/segments_qwen3-32b.tsv"
+  },
+  "metrics": [
+    "xcomet",
+    "kiwi",
+    "nta"
+  ],
+  "n_uids": 492,
+  "bootstrap": {
+    "n_boot": 2000,
+    "seed": 20260722
+  },
+  "note": "derived tables added 2026-09-13; XCOMET rows asserted identical to the frozen comparisons.tsv"
+}

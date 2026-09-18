@@ -1,0 +1,150 @@
+{
+  "pred": "../reports/neoguard/test_pred_frozen.jsonl",
+  "pool": "../../pipeline/merged_pool.jsonl",
+  "rule": "gold span surface string, NFKC-normalised, occurs as a noise_span string anywhere in the training pool (multi-span rows split on the double bar)",
+  "overall": {
+    "n_gold": 782,
+    "n_gold_A": 279,
+    "n_gold_B": 503,
+    "span_recall": 0.7762,
+    "span_recall_exact": 0.5448,
+    "span_recall_exact_typed": 0.4591
+  },
+  "seen": {
+    "n_gold": 275,
+    "n_gold_A": 35,
+    "n_gold_B": 240,
+    "span_recall": 0.9236,
+    "span_recall_exact": 0.8,
+    "span_recall_exact_typed": 0.7018
+  },
+  "unseen": {
+    "n_gold": 507,
+    "n_gold_A": 244,
+    "n_gold_B": 263,
+    "span_recall": 0.6963,
+    "span_recall_exact": 0.4063,
+    "span_recall_exact_typed": 0.3274
+  },
+  "seen_fraction": 0.3517,
+  "seen_fraction_by_table": {
+    "A": 0.1254,
+    "B": 0.4771
+  },
+  "per_class": {
+    "seen/HOM": {
+      "n_gold": 44,
+      "n_gold_A": 4,
+      "n_gold_B": 40,
+      "span_recall": 0.8864,
+      "span_recall_exact": 0.7045,
+      "span_recall_exact_typed": 0.5
+    },
+    "seen/PYA": {
+      "n_gold": 74,
+      "n_gold_A": 4,
+      "n_gold_B": 70,
+      "span_recall": 0.9865,
+      "span_recall_exact": 0.973,
+      "span_recall_exact_typed": 0.9054
+    },
+    "seen/NEO": {
+      "n_gold": 68,
+      "n_gold_A": 15,
+      "n_gold_B": 53,
+      "span_recall": 0.8529,
+      "span_recall_exact": 0.5588,
+      "span_recall_exact_typed": 0.4559
+    },
+    "seen/MIX": {
+      "n_gold": 89,
+      "n_gold_A": 12,
+      "n_gold_B": 77,
+      "span_recall": 0.9438,
+      "span_recall_exact": 0.8876,
+      "span_recall_exact_typed": 0.8202
+    },
+    "unseen/HOM": {
+      "n_gold": 98,
+      "n_gold_A": 14,
+      "n_gold_B": 84,
+      "span_recall": 0.7653,
+      "span_recall_exact": 0.4082,
+      "span_recall_exact_typed": 0.2959
+    },
+    "unseen/PYA": {
+      "n_gold": 52,
+      "n_gold_A": 11,
+      "n_gold_B": 41,
+      "span_recall": 0.9423,
+      "span_recall_exact": 0.75,
+      "span_recall_exact_typed": 0.6154
+    },
+    "unseen/NEO": {
+      "n_gold": 254,
+      "n_gold_A": 187,
+      "n_gold_B": 67,
+      "span_recall": 0.5039,
+      "span_recall_exact": 0.2283,
+      "span_recall_exact_typed": 0.1693
+    },
+    "unseen/MIX": {
+      "n_gold": 103,
+      "n_gold_A": 32,
+      "n_gold_B": 71,
+      "span_recall": 0.9806,
+      "span_recall_exact": 0.6699,
+      "span_recall_exact_typed": 0.6019
+    }
+  },
+  "random_span_control": {
+    "unseen/HOM": {
+      "chance_span_recall": 0.3899,
+      "chance_span_recall_iou50": 0.1772,
+      "chance_span_recall_exact": 0.0358,
+      "rounds": 200
+    },
+    "seen/HOM": {
+      "chance_span_recall": 0.3693,
+      "chance_span_recall_iou50": 0.1562,
+      "chance_span_recall_exact": 0.0257,
+      "rounds": 200
+    },
+    "unseen/NEO": {
+      "chance_span_recall": 0.3413,
+      "chance_span_recall_iou50": 0.1519,
+      "chance_span_recall_exact": 0.0279,
+      "rounds": 200
+    },
+    "seen/PYA": {
+      "chance_span_recall": 0.4295,
+      "chance_span_recall_iou50": 0.2029,
+      "chance_span_recall_exact": 0.0295,
+      "rounds": 200
+    },
+    "unseen/PYA": {
+      "chance_span_recall": 0.4557,
+      "chance_span_recall_iou50": 0.1988,
+      "chance_span_recall_exact": 0.0309,
+      "rounds": 200
+    },
+    "seen/NEO": {
+      "chance_span_recall": 0.3639,
+      "chance_span_recall_iou50": 0.1751,
+      "chance_span_recall_exact": 0.044,
+      "rounds": 200
+    },
+    "unseen/MIX": {
+      "chance_span_recall": 0.5644,
+      "chance_span_recall_iou50": 0.1876,
+      "chance_span_recall_exact": 0.0194,
+      "rounds": 200
+    },
+    "seen/MIX": {
+      "chance_span_recall": 0.446,
+      "chance_span_recall_iou50": 0.1914,
+      "chance_span_recall_exact": 0.0234,
+      "rounds": 200
+    }
+  }
+}

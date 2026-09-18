@@ -76,10 +76,10 @@ def _reg_rows(recs, metric):
     return rows
 
 
-def rq2_regression(by_model, metric, seed):
+def rq2_regression(by_model, metric, seed, n_boot=1000):
     rows = []
     for model in sorted(by_model):
-        res = regression(_reg_rows(by_model[model], metric), seed=seed)
+        res = regression(_reg_rows(by_model[model], metric), n_boot=n_boot, seed=seed)
         if not res.get("coefs"):
             rows.append([model, f"(insufficient data, n={res.get('n', 0)})", "", "", "", ""])
             continue
@@ -110,6 +110,9 @@ def main():
     ap.add_argument("--outdir", default="", help="where to write analysis tables (default: resdir-a)")
     ap.add_argument("--metric", default="xcomet_d", help="per-item Δ field: xcomet_d (default) or nta_d")
     ap.add_argument("--seed", type=int, default=20260722)
+    ap.add_argument("--n-boot", type=int, default=1000,
+                    help="regression bootstrap resamples (frozen primary = 1000; 2000 = the "
+                         "sensitivity check quoted in the paper's Limitations)")
     args = ap.parse_args()
     outdir = args.outdir or args.resdir_a
     os.makedirs(outdir, exist_ok=True)
@@ -121,7 +124,7 @@ def main():
     _write(os.path.join(outdir, "table_rq1_pairs.tsv"),
            ["model_a", "model_b", "metric", "n", "mean_a", "mean_b", "diff", "ci_lo", "ci_hi", "p_boot"], p1)
 
-    p2 = rq2_regression(by_model, args.metric, args.seed)
+    p2 = rq2_regression(by_model, args.metric, args.seed, n_boot=args.n_boot)
     _write(os.path.join(outdir, "table_rq2_regression.tsv"),
            ["model", "term", "estimate", "ci_lo", "ci_hi", "excludes_zero"], p2)
 

@@ -1,0 +1,5 @@
+pair	scope	metric	n	mean_hi	mean_lo	diff	ci_lo	ci_hi	p_boot
+a2-a0	all	nta	492	27.64	32.72	-5.08	-9.15	-0.81	0.0130
+a2-a1	all	nta	492	27.64	26.83	0.81	-2.24	3.86	0.6870
+a3-a2	all	nta	492	29.67	27.64	2.03	-0.41	4.47	0.1330
+a4-a3	all	nta	492	37.60	29.67	7.93	4.47	11.59	0.0000

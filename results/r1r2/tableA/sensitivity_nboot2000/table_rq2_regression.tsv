@@ -1,0 +1,109 @@
+model	term	estimate	ci_lo	ci_hi	excludes_zero
+aya-101	intercept	16.55	6.53	28.28	yes
+aya-101	cat=PYA	-6.74	-19.97	5.58	
+aya-101	cat=NEO	-8.63	-20.73	1.74	
+aya-101	cat=MIX	-15.35	-28.64	-3.65	yes
+aya-101	length_z	-2.05	-3.62	-0.57	yes
+aya-101	editdist_z	1.42	-0.75	3.67	
+aya-expanse-8b	intercept	15.66	6.09	26.10	yes
+aya-expanse-8b	cat=PYA	-1.98	-19.20	13.82	
+aya-expanse-8b	cat=NEO	-4.78	-15.69	5.15	
+aya-expanse-8b	cat=MIX	-10.81	-22.47	0.20	
+aya-expanse-8b	length_z	-5.69	-8.25	-3.84	yes
+aya-expanse-8b	editdist_z	1.92	-0.11	3.86	
+deepseek	intercept	11.37	6.90	15.94	yes
+deepseek	cat=PYA	-6.08	-12.56	0.44	
+deepseek	cat=NEO	-5.80	-10.59	-1.17	yes
+deepseek	cat=MIX	-7.93	-13.64	-1.80	yes
+deepseek	length_z	-4.18	-5.78	-3.02	yes
+deepseek	editdist_z	2.37	0.88	3.79	yes
+gemini	intercept	10.18	3.65	17.58	yes
+gemini	cat=PYA	-1.10	-10.24	7.07	
+gemini	cat=NEO	-4.48	-12.08	2.25	
+gemini	cat=MIX	-5.06	-13.36	2.68	
+gemini	length_z	-3.65	-5.23	-2.40	yes
+gemini	editdist_z	1.99	0.42	3.44	yes
+gemma3-12b	intercept	9.86	2.85	17.24	yes
+gemma3-12b	cat=PYA	-0.25	-11.51	11.19	
+gemma3-12b	cat=NEO	-1.63	-9.25	5.49	
+gemma3-12b	cat=MIX	-6.11	-14.03	1.66	
+gemma3-12b	length_z	-3.21	-5.04	-1.63	yes
+gemma3-12b	editdist_z	2.77	0.91	4.46	yes
+gemma3-27b	intercept	16.11	9.83	22.44	yes
+gemma3-27b	cat=PYA	-3.65	-15.60	9.40	
+gemma3-27b	cat=NEO	-6.46	-13.04	-0.01	yes
+gemma3-27b	cat=MIX	-14.92	-24.18	-6.08	yes
+gemma3-27b	length_z	-3.74	-6.12	-1.97	yes
+gemma3-27b	editdist_z	4.47	2.39	6.63	yes
+gemma3-4b	intercept	13.96	5.51	22.55	yes
+gemma3-4b	cat=PYA	-4.81	-16.31	6.87	
+gemma3-4b	cat=NEO	-4.80	-13.40	3.63	
+gemma3-4b	cat=MIX	-12.02	-21.68	-1.92	yes
+gemma3-4b	length_z	-3.74	-6.20	-1.95	yes
+gemma3-4b	editdist_z	3.58	1.47	5.64	yes
+gemmax2-9b	intercept	16.33	10.65	22.69	yes
+gemmax2-9b	cat=PYA	-9.87	-17.13	-2.29	yes
+gemmax2-9b	cat=NEO	-9.08	-15.39	-2.96	yes
+gemmax2-9b	cat=MIX	-12.63	-20.02	-5.34	yes
+gemmax2-9b	length_z	-3.35	-4.97	-2.15	yes
+gemmax2-9b	editdist_z	3.06	1.36	4.88	yes
+google-translate	intercept	14.70	8.93	21.44	yes
+google-translate	cat=PYA	-9.20	-17.14	-1.35	yes
+google-translate	cat=NEO	-7.76	-14.41	-1.83	yes
+google-translate	cat=MIX	-11.21	-18.60	-3.89	yes
+google-translate	length_z	-2.96	-4.84	-1.53	yes
+google-translate	editdist_z	3.38	2.01	4.98	yes
+gpt-4o	intercept	12.31	6.54	19.27	yes
+gpt-4o	cat=PYA	-2.84	-10.94	4.74	
+gpt-4o	cat=NEO	-6.13	-13.05	-0.24	yes
+gpt-4o	cat=MIX	-8.81	-16.56	-1.99	yes
+gpt-4o	length_z	-3.69	-5.34	-2.55	yes
+gpt-4o	editdist_z	2.71	1.43	4.02	yes
+hunyuan-mt-7b	intercept	11.50	5.52	18.42	yes
+hunyuan-mt-7b	cat=PYA	0.17	-9.03	10.33	
+hunyuan-mt-7b	cat=NEO	-3.73	-10.69	2.61	
+hunyuan-mt-7b	cat=MIX	-6.44	-14.23	0.93	
+hunyuan-mt-7b	length_z	-4.60	-6.19	-3.25	yes
+hunyuan-mt-7b	editdist_z	2.23	0.52	4.04	yes
+nllb-3.3b	intercept	11.51	-5.12	25.59	
+nllb-3.3b	cat=PYA	0.85	-15.39	19.88	
+nllb-3.3b	cat=NEO	1.26	-13.33	18.04	
+nllb-3.3b	cat=MIX	-8.08	-23.46	10.41	
+nllb-3.3b	length_z	-3.95	-6.02	-2.04	yes
+nllb-3.3b	editdist_z	4.26	0.83	7.45	yes
+qwen3-0.6b	intercept	11.50	3.88	19.44	yes
+qwen3-0.6b	cat=PYA	-7.43	-17.11	1.42	
+qwen3-0.6b	cat=NEO	-4.08	-12.28	3.75	
+qwen3-0.6b	cat=MIX	-6.36	-16.05	3.36	
+qwen3-0.6b	length_z	-3.72	-5.74	-2.14	yes
+qwen3-0.6b	editdist_z	2.52	0.40	4.77	yes
+qwen3-1.7b	intercept	14.25	8.23	21.80	yes
+qwen3-1.7b	cat=PYA	-6.96	-15.23	1.06	
+qwen3-1.7b	cat=NEO	-7.70	-15.57	-1.65	yes
+qwen3-1.7b	cat=MIX	-12.00	-20.11	-4.07	yes
+qwen3-1.7b	length_z	-3.28	-5.03	-1.79	yes
+qwen3-1.7b	editdist_z	3.25	1.45	5.19	yes
+qwen3-14b	intercept	14.57	9.27	20.92	yes
+qwen3-14b	cat=PYA	-7.06	-15.73	3.19	
+qwen3-14b	cat=NEO	-7.20	-13.76	-1.73	yes
+qwen3-14b	cat=MIX	-10.65	-18.00	-4.01	yes
+qwen3-14b	length_z	-3.22	-5.14	-1.77	yes
+qwen3-14b	editdist_z	3.46	1.86	5.19	yes
+qwen3-32b	intercept	15.25	8.37	23.05	yes
+qwen3-32b	cat=PYA	-8.16	-16.98	-0.11	yes
+qwen3-32b	cat=NEO	-8.64	-16.30	-1.77	yes
+qwen3-32b	cat=MIX	-11.05	-19.43	-3.68	yes
+qwen3-32b	length_z	-3.53	-5.26	-2.13	yes
+qwen3-32b	editdist_z	3.12	1.57	4.57	yes
+qwen3-4b	intercept	13.18	5.86	21.42	yes
+qwen3-4b	cat=PYA	-4.15	-14.06	5.53	
+qwen3-4b	cat=NEO	-4.81	-12.98	2.40	
+qwen3-4b	cat=MIX	-11.50	-20.67	-3.24	yes
+qwen3-4b	length_z	-3.15	-5.15	-1.48	yes
+qwen3-4b	editdist_z	4.07	1.95	6.20	yes
+qwen3-8b	intercept	12.28	5.64	19.71	yes
+qwen3-8b	cat=PYA	-3.70	-13.05	5.92	
+qwen3-8b	cat=NEO	-3.75	-11.44	3.10	
+qwen3-8b	cat=MIX	-9.25	-17.61	-1.34	yes
+qwen3-8b	length_z	-3.05	-4.95	-1.54	yes
+qwen3-8b	editdist_z	3.86	2.21	5.69	yes

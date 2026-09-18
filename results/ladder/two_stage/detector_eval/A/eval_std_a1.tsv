@@ -1,0 +1,6 @@
+scope	n_rows	n_scored	exact_rate	fuzzy_rate	n_unpaired	n_parse_fail
+all	267	82	30.49	42.68	108	2
+HOM	17	9	33.33	33.33	4	0
+PYA	15	13	61.54	61.54	4	0
+NEO	191	34	17.65	44.12	75	2
+MIX	44	26	30.77	34.62	25	0

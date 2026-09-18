@@ -1,0 +1,65 @@
+{
+  "kind": "r3_detector_eval",
+  "created": "2026-07-30T03:02:11",
+  "protocol": {
+    "decoding": "greedy (do_sample=False)",
+    "max_new_tokens": 512,
+    "api_temperature": 0.0,
+    "thinking": "disabled (Qwen3 enable_thinking=False)",
+    "prompt": "unified, verbatim per RESEARCH_PLAN §6; frozen pre-run",
+    "nta_threshold": 0.8,
+    "bootstrap_seed": 20260722,
+    "xcomet_model": "Unbabel/XCOMET-XL",
+    "cometkiwi_model": "Unbabel/wmt22-cometkiwi-da"
+  },
+  "env": {
+    "python": "3.12.3",
+    "platform": "Linux-6.5.0-45-generic-x86_64-with-glibc2.39",
+    "hf_home": "/workspace/hf_cache",
+    "packages": {
+      "torch": "2.10.0",
+      "transformers": "4.57.6",
+      "numpy": "1.26.4",
+      "rapidfuzz": "3.14.5",
+      "comet": "2.2.7",
+      "openai": "2.50.0",
+      "anthropic": "0.120.2",
+      "google-genai": "2.15.0"
+    },
+    "api_keys_present": {
+      "OPENAI_API_KEY": false,
+      "GOOGLE_API_KEY": false,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": false,
+      "HF_TOKEN": true,
+      "HUGGING_FACE_HUB_TOKEN": true
+    }
+  },
+  "extra": {
+    "detector": {
+      "path": "/workspace/r3_exp_result/detector/det_neoguard_v2_20260730.jsonl",
+      "bytes": 317123,
+      "sha256": "8264a37d97bd275874cda06400713553e26e1c662734d3fc68d4602b6e7a6f35",
+      "lines": 759
+    },
+    "data": [
+      {
+        "path": "/workspace/r1-r2/data/contrastive_A.tsv",
+        "bytes": 62995,
+        "sha256": "a3fb91b2820a6c16ecea4e0e99bcd22ed468ee073419984d88edb03ef6f0e9af",
+        "lines": 268
+      },
+      {
+        "path": "/workspace/r1-r2/data/contrastive_B.tsv",
+        "bytes": 105418,
+        "sha256": "177ba851ed6bf84c901ba8cefca3519858abf0a7a04e3abe8a7b6a8f0abc66fd",
+        "lines": 493
+      }
+    ],
+    "norm_logs": [
+      "a1=../r3_exp_result/normalized_qwen32b/norm_a1_contrastive_A.log.jsonl",
+      "a2=../r3_exp_result/normalized_qwen32b_ng2/norm_a2_contrastive_A.log.jsonl",
+      "a3=../r3_exp_result/normalized_qwen32b/norm_a3_contrastive_A.log.jsonl"
+    ]
+  }
+}

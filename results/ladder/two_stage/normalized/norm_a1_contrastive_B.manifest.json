@@ -1,0 +1,64 @@
+{
+  "kind": "r3_normalize",
+  "created": "2026-07-29T15:48:34",
+  "protocol": {
+    "decoding": "greedy (do_sample=False)",
+    "max_new_tokens": 512,
+    "api_temperature": 0.0,
+    "thinking": "disabled (Qwen3 enable_thinking=False)",
+    "prompt": "unified, verbatim per RESEARCH_PLAN §6; frozen pre-run",
+    "nta_threshold": 0.8,
+    "bootstrap_seed": 20260722,
+    "xcomet_model": "Unbabel/XCOMET-XL",
+    "cometkiwi_model": "Unbabel/wmt22-cometkiwi-da"
+  },
+  "env": {
+    "python": "3.12.3",
+    "platform": "Linux-6.8.0-100-generic-x86_64-with-glibc2.39",
+    "hf_home": "/workspace/hf_cache",
+    "packages": {
+      "torch": "2.10.0",
+      "transformers": "4.57.6",
+      "numpy": "1.26.4",
+      "rapidfuzz": "3.14.5",
+      "comet": "2.2.7",
+      "openai": "2.50.0",
+      "anthropic": "0.120.2",
+      "google-genai": "2.14.0"
+    },
+    "api_keys_present": {
+      "OPENAI_API_KEY": true,
+      "GOOGLE_API_KEY": true,
+      "ANTHROPIC_API_KEY": false,
+      "GEMINI_API_KEY": true,
+      "HF_TOKEN": true,
+      "HUGGING_FACE_HUB_TOKEN": true
+    },
+    "cuda_device": "NVIDIA A100-SXM4-80GB",
+    "cuda": "12.8"
+  },
+  "data": {
+    "path": "/root/r1-r2/data/contrastive_B.tsv",
+    "bytes": 105418,
+    "sha256": "177ba851ed6bf84c901ba8cefca3519858abf0a7a04e3abe8a7b6a8f0abc66fd",
+    "lines": 493,
+    "n_records": 492
+  },
+  "extra": {
+    "tier": "a1",
+    "backend": "local",
+    "model": "qwen3-32b",
+    "tau": null,
+    "prompts_version": "r3-prompts-v2-frozen-20260729",
+    "a2_allow_decline": true,
+    "temperature": 0.0,
+    "max_new_tokens": 512,
+    "detector": {
+      "path": "/root/r3_exp_result/detector/det_fused_20260729.jsonl",
+      "bytes": 224369,
+      "sha256": "910742b76b826d01d5e923e1365b3f1bd4d475d7dd666e4b156e1d590fbb6991",
+      "lines": 759
+    },
+    "parse_failures": 4
+  }
+}
